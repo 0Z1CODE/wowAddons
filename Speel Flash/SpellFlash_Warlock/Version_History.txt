@@ -1,0 +1,254 @@
+
+
+
+== Version 2.14
+
+* Added indicator for Banish.
+
+
+== Version 2.13
+
+* Will no longer flash the pet's passive button when not in a raid or a party.
+
+
+== Version 2.12
+
+* Updated group Soulstone Resurrection checking to work with the 5.58 version of SpellFlash.
+
+
+== Version 2.11
+
+* Updated to be compatible with the 5.51 version of SpellFlash.
+* Will no longer flash other curses or banes if one curse or bane is in the process of being cast.
+
+
+== Version 2.10.1
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+
+
+== Version 2.10
+
+* Added indicator for Improved Soul Fire.
+
+
+== Version 2.9
+
+* Added checks for similar debuffs as Curse of Weakness.
+
+
+== Version 2.8.1
+
+* Updated to be compatible with the 5.25 version of SpellFlash.
+
+
+== Version 2.8
+
+* Now accounting for the cooldown of a spell interrupt ability to allow early indication while on cooldown.
+
+
+== Version 2.7
+
+* Removed the one second minimum cast time for spell interruption abilities.
+
+
+== Version 2.6.1
+
+* Bumped the toc file interface number to 40000.
+
+
+== Version 2.6
+
+* For Cataclysm:
+** Added indicators for Demon Soul, Fel Flame, Dark Intent and Drain Life.
+** Will no longer indicate buffing with Soulstone if you are mounted or resting.
+
+
+== Version 2.5.1
+
+* For Cataclysm:
+** Updated to be compatible with the 5.15 version of SpellFlash.
+** Updated Haunt to not flash if casting.
+
+
+== Version 2.5
+
+* Updated to use the BigLibTimer library included with SpellFlashCore.
+
+
+== Version 2.4.1
+
+* For Cataclysm, updated to be compatible with the 5.10 version of SpellFlash.
+
+
+== Version 2.4
+
+* For Cataclysm:
+** Added indicator for Soulshatter if you are in a group and you have 90% or more threat from your target.
+** Updated Incinerate for the Molten Core talent so that Incinerate is not given priority if Molten Core only has one charge left and Incinerate is already casting.
+
+
+== Version 2.3
+
+* Updated to use the LibBigTimer library included with SpellFlashCore.
+* Improved the Cataclysm Shadow Embrace and Shadow Mastery indicators for Shadow Bolt.
+* Increased the Cataclysm priority for Incinerate when you have the Molten Core buff.
+
+
+== Version 2.2
+
+* Formated the Cataclysm functionality to use the new s table API.
+* Added the talent Molten Core into the Cataclysm priority calculations.
+* Added Cataclysm indicator Soul Fire for the Decimation talent.
+
+
+== Version 2.1.1
+
+* The Cataclysm Soulstone function now checks to see if you are in a party or raid and if any of your healers have Soulstone Resurrection on them.
+
+
+== Version 2.1
+
+* The timer functions are now handled by an internal library.
+* Updated Cataclysm functionality for Axe Toss to only be indicated when the target is casting or channeling.
+* Updated Cataclysm functionality for Suffering, Demon Leap and Health Funnel.
+* Added Cataclysm indicators for summoning demons, Demonic Empowerment, Hand of Gul'dan, Soul Link, Summon Doomguard, Summon Infernal, Healthstone and Soulstone.
+
+
+== Version 2.0
+
+* Refined existing Cataclysm spell indicators.
+* Added Cataclysm indicators for Shadow Ward, Create Healthstone, Create Soulstone, Metamorphosis, Immolation Aura, Demon Leap, Conflagrate, Chaos Bolt, Shadowburn, Haunt, Incinerate and Shadow Bolt.
+
+
+== Version 1.22
+
+* Updated Cataclysm compatibility for the 5.0 version of SpellFlash.
+
+
+== Version 1.21
+
+* For Cataclysm made a lot of improvements to the functions for Health Funnel, Life Tap, Soul Harvest and Soul Swap.
+
+
+== Version 1.20
+
+* Repaired the Cataclysm Curse of the Elements function to compensate for Jinx: Curse of the Elements.
+
+
+== Version 1.19
+
+* Added indicators for Unending Breath.
+* Added most of the spell functions for Cataclysm.
+* Added some spell indicators for Cataclysm for testing purposes.
+
+
+== Version 1.18
+
+* Added a clean slate for backward compatibility with Cataclysm.
+
+
+== Version 1.17
+
+* Removed and replaced the SpellFlashCore.Event table.
+
+
+== Version 1.16
+
+* Updated compatibility for the 4.3 version of SpellFlash.
+
+
+== Version 1.15
+
+* Updated compatibility for the 4.2 version of SpellFlash.
+
+
+== Version 1.14
+
+* Repaired the indicators for the Armor buffs for non-English game clients.
+
+
+== Version 1.13
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 1.12.1
+
+* In the lua files now able to use the letter L in place of Table.Localize.
+
+
+== Version 1.12
+
+* Updated used timer functions from the main SpellFlash addon.
+
+
+== Version 1.11
+
+* Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+== Version 1.10
+
+* Now able to check if an item is castable.
+* Renamed localization variable from LOCALIZATION to Table.Localize.
+* Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+== Version 1.09
+
+* Reformatted title in the toc file.
+* Reformatted title in the options menu.
+
+
+== Version 1.08
+
+* Updated options frame to current template specs.
+
+
+== Version 1.07
+
+* Hopefully removed harmless error message from popping up.
+
+
+== Version 1.06
+
+* Added example text to localization files.
+* Updated options frame to current template specs.
+* Renamed a few local functions to reduce the script size.
+* Added a few more local functions to reduce the script size.
+* Using incremental version numbers again.
+
+
+== Version 1.05
+
+* Replaced the z.DebuffName and z.BuffName variables in the Castable functions with more specific variables.
+** The new z.Debuff, z.MyDebuff, z.Buff and z.MyBuff variables are now able to take either a single name or a table of names.
+
+
+== Version 1.04
+
+* Reverted some script changes to comply with base changes.
+
+
+== Version 1.03
+
+* Increased priority for Incinerate when the Molten Core buff is up.
+* Added more local functions to reduce the script size.
+
+
+== Version 1.02
+
+* Added the ability to not load an addon at all unless you log on with a specified class or race.
+* Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+== Version 1.01
+
+* Added a child options frame.
+
+
+== Version 1.00
+
+* Separated functionality into a separate addon.
+

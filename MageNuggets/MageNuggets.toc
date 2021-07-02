@@ -1,0 +1,11 @@
+﻿## Interface: 30300
+## Title: Mage Nuggets
+## Author: B-Buck (Bbuck - Eredar)
+## Version: 1.7
+## Notes: Разнообразные помощники для магов(перевод http://getaddon.com)
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter: MageNugz
+embeds.xml
+Localization\MNLocale-enUS.lua
+magenuggets.xml

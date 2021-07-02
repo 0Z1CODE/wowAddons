@@ -1,0 +1,252 @@
+
+
+
+== Version 1.34
+
+* Updated to be compatible with the 5.51 version of SpellFlash.
+** The z.BuffUnit variable has been returned to the castable functions and will be required for buffs or debuffs that are not applied to your target.
+** z.BuffUnit should be used instead of z.Unit for self buffs or any buff or debuff that is not applied to your target.
+
+
+== Version 1.33
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+* In the castable functions replaced z.SpellName with z.SpellID and z.BuffUnit with z.Unit.
+** z.Unit is now required for spells that are not cast on your target such as self buffing spells.
+* Replaced the included "Attack" castable checking function with the "Auto Attack" castable checking function.
+
+
+== Version 1.32
+
+* The x table is now usable in the Functions.lua and Scripts.lua files.
+
+
+== Version 1.31.1
+
+* Bumped the toc file interface number to 40000.
+
+
+== Version 1.31
+
+* For Cataclysm, Castable functions are no longer imported from the main SpellFlash addon.
+** Included a few default Castable functions that are no longer imported.
+
+
+== Version 1.30
+
+* For Cataclysm:
+** Replaced spell names where applicable with the global spell ID number.
+** The SpellName and ItemName local functions have been replaced with s.SpellName and s.ItemName functions.
+
+
+== Version 1.29
+
+* Formated the Cataclysm functionality to use the new s table API.
+
+
+== Version 1.28
+
+* Removed the local function SpellRank from the Cataclysm files.
+
+
+== Version 1.27.1
+
+* Renamed the table passed to the spam functions in Cataclysm from z to x, to clearly distinguish it from the z table that is used with the castable checking functions.
+
+
+== Version 1.27
+
+* Added the z.NotWhileMoving argument included in the 5.2 version of SpellFlash to the castable checking function examples.
+
+
+== Version 1.26
+
+* Updated Cataclysm compatibility for the 5.0 version of SpellFlash.
+
+
+== Version 1.25
+
+* Made build checking a little simpler to understand.
+
+
+== Version 1.24
+
+* Renamed files Functions_Old.lua and Scripts_Old.lua to Old_Functions.lua and Old_Scripts.lua.
+
+
+== Version 1.23
+
+* Added ability to place all the live server support into the Functions_Old.lua and Scripts_Old.lua files so that Cataclysm support may be added into the same module separately.
+
+
+== Version 1.22
+
+* Moved all localizations into a single file.
+* This version of this template will work with Cataclysm once SpellFlash has been updated to work with Cataclysm.
+
+
+== Version 1.21
+
+* Replaced the SpellFlashAddon.msg function with the print function.
+
+
+== Version 1.20
+
+* Updated compatibility for the 4.2 version of SpellFlash.
+
+
+== Version 1.19.4
+
+* Moved a couple separating commas around in the Spam table for more consistent grouping.
+
+
+== Version 1.19.3
+
+* All text based documents are now encoded using UTF-8.
+
+
+== Version 1.19.2
+
+* Because of UTF-8 encoding, unicode escape sequences are not required.
+* Tutorials for unicode escape sequences have been removed from the localization files.
+
+
+== Version 1.19.1
+
+* Slightly edited the _Initialize.lua file.
+
+
+== Version 1.19
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 1.18.5
+
+* Replaced the getglobal function with the _G table in the Options.lua file.
+
+
+== Version 1.18.4
+
+* The Castable functions in the Scripts.lua file will now notify the user if the function is called with a spell name that has not yet been defined in its own function in the Functions.lua file.
+
+
+== Version 1.18.3
+
+* Spells are now required to be defined in the Functions.lua file to be able to work from the Castable function in the Scripts.lua file.
+
+
+== Version 1.18.2
+
+* Reverted changes in the Functions.lua from previous version.
+
+
+== Version 1.18.1
+
+* In the lua files now able to use the letter L in place of Table.Localize.
+
+
+== Version 1.18
+
+* Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+== Version 1.17
+
+* Refined options slider updating code a little.
+
+
+== Version 1.16
+
+* Now able to check if an item is castable.
+* Renamed localization variable from LOCALIZATION to Table.Localize.
+* Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+== Version 1.15
+
+* Removed case sensitivity of the addon name for the options menu.
+
+
+== Version 1.14
+
+* Reformatted title in the toc file.
+* Reformatted title in the options menu.
+
+
+== Version 1.13
+
+* Added guide numbers to spec selection slider bar.
+* Options frame is now created from a template file to reduce the amount of required changes to convert SpellFlash_TemplateAddon into a functional module.
+
+
+== Version 1.12
+
+* Hopefully removed harmless error message from popping up.
+
+
+== Version 1.11
+
+* Added optional description field to the selectable configurations.
+* Renamed a few local functions to reduce the script size.
+* Added a few more local functions to reduce the script size.
+* Using incremental version numbers again.
+
+
+== Version 1.10
+
+* Replaced the z.DebuffName and z.BuffName variables in the Castable functions with more specific variables.
+** The new z.Debuff, z.MyDebuff, z.Buff and z.MyBuff variables are now able to take either a single name or a table of names.
+
+
+== Version 1.9
+
+* Completely reformatted localization functionality.
+* Significantly reconfigured file and variable names to reduce the amount of required changes to convert SpellFlash_TemplateAddon into a functional module.
+
+
+== Version 1.8
+
+* Added the ability to add multiple selectable scripts per module addon.
+
+
+== Version 1.7
+
+* Will no longer try to load SpellFlash_TemplateAddon.
+
+
+== Version 1.6
+
+* Replaced X-SpellFlashAddon-LoadWithClass and X-SpellFlashAddon-LoadWithRace in the toc file with X-SpellFlashAddon-LoadWith.
+
+
+== Version 1.5
+
+* Added more local functions to reduce the script size.
+
+
+== Version 1.4
+
+* Added more local functions to reduce the script size, including the SetColor function for selecting a different color if conditions are met.
+
+
+== Version 1.3
+
+* Added the ability to not load an addon at all unless you log on with a specified class or race.
+* Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+== Version 1.2
+
+* Added a child options frame.
+
+
+== Version 1.1
+
+* Incorporated improvements of the SpellFlashAddon.MeleeDistance function by adding a reference to the SpellFlashAddon.OutsideMeleeSpells variable.
+
+
+== Version 1.0
+
+* First release.
+

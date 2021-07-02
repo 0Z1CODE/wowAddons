@@ -1,0 +1,11 @@
+## Interface: 30100
+## Title: Raid Roll - EPGP
+## Author: Musou
+## Notes: Used to track EPGP
+## email: killerpet@gmail.com
+## Dependencies: RaidRoll
+
+
+RaidRoll_EPGP.lua
+
+

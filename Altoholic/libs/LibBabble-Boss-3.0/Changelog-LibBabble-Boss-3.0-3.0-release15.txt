@@ -1,0 +1,1022 @@
+------------------------------------------------------------------------
+r193 | nevcairiel | 2009-04-14 15:46:27 +0000 (Tue, 14 Apr 2009) | 1 line
+Changed paths:
+   A /tags/3.0-release15 (from /trunk:192)
+
+Weekly Tag - Week 15
+------------------------------------------------------------------------
+r192 | nevcairiel | 2009-04-14 15:45:00 +0000 (Tue, 14 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+   M /trunk/LibBabble-Boss-3.0.toc
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r190 | nevcairiel | 2009-04-07 21:14:35 +0000 (Tue, 07 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r189 | nevcairiel | 2009-04-05 14:37:28 +0000 (Sun, 05 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r188 | nevcairiel | 2009-04-03 06:53:07 +0000 (Fri, 03 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r186 | nevcairiel | 2009-03-31 12:20:00 +0000 (Tue, 31 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r184 | nevcairiel | 2009-03-20 19:22:58 +0000 (Fri, 20 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r183 | nevcairiel | 2009-03-17 12:52:55 +0000 (Tue, 17 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r181 | nevcairiel | 2009-03-13 23:45:41 +0000 (Fri, 13 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r180 | nevcairiel | 2009-03-10 08:38:00 +0000 (Tue, 10 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r179 | nevcairiel | 2009-03-06 10:11:48 +0000 (Fri, 06 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.toc
+
+Restore LoD to Libraries, as 3.0.8 fixed all bugs that blocked LoD OptionalDeps to load properly.
+------------------------------------------------------------------------
+r178 | nevcairiel | 2009-03-04 17:57:09 +0000 (Wed, 04 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r176 | nevcairiel | 2009-02-24 13:18:23 +0000 (Tue, 24 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r174 | nevcairiel | 2009-02-14 20:28:33 +0000 (Sat, 14 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r172 | nevcairiel | 2009-02-03 10:09:20 +0000 (Tue, 03 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r171 | nevcairiel | 2009-01-30 18:40:35 +0000 (Fri, 30 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r169 | nevcairiel | 2009-01-27 10:16:21 +0000 (Tue, 27 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r168 | nevcairiel | 2009-01-23 20:15:31 +0000 (Fri, 23 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r167 | nevcairiel | 2009-01-22 15:52:57 +0000 (Thu, 22 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r166 | nevcairiel | 2009-01-21 08:00:39 +0000 (Wed, 21 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/LibBabble-3.0.lua
+   M /trunk/LibBabble-Boss-3.0.lua
+   M /trunk/lib.xml
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r165 | yoshimo | 2009-01-20 21:16:00 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+*deDE-update for cot:strath
+------------------------------------------------------------------------
+r163 | 7destiny | 2009-01-20 08:51:20 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r162 | ananhaid | 2009-01-17 06:54:53 +0000 (Sat, 17 Jan 2009) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN update.
+------------------------------------------------------------------------
+r161 | sunmark | 2009-01-16 16:00:38 +0000 (Fri, 16 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+- update zhTW
+------------------------------------------------------------------------
+r160 | 7destiny | 2009-01-14 01:38:26 +0000 (Wed, 14 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r159 | daviesh | 2009-01-11 10:45:44 +0000 (Sun, 11 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Minor Spanish update
+------------------------------------------------------------------------
+r158 | ackis | 2009-01-09 22:23:29 +0000 (Fri, 09 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Revert + update koKR
+------------------------------------------------------------------------
+r157 | ackis | 2009-01-09 22:02:33 +0000 (Fri, 09 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+See if this commits through the script...
+------------------------------------------------------------------------
+r156 | ackis | 2009-01-09 21:39:54 +0000 (Fri, 09 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Converstion to localization app phase 1
+------------------------------------------------------------------------
+r155 | trasher | 2009-01-02 21:43:20 +0000 (Fri, 02 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+update ru, es, de, fr (Kolurg)
+------------------------------------------------------------------------
+r154 | 7destiny | 2009-01-02 15:54:46 +0000 (Fri, 02 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+add "Commander Kolurg"
+------------------------------------------------------------------------
+r153 | yoshimo | 2008-12-31 16:16:16 +0000 (Wed, 31 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+deDE update
+------------------------------------------------------------------------
+r152 | volpo2001 | 2008-12-29 03:19:18 +0000 (Mon, 29 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+esES update
+------------------------------------------------------------------------
+r151 | 7destiny | 2008-12-27 19:32:42 +0000 (Sat, 27 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r150 | 7destiny | 2008-12-19 18:09:16 +0000 (Fri, 19 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r149 | lcf_hell | 2008-12-18 21:31:33 +0000 (Thu, 18 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU fix for "Instructor Razuvious"
+------------------------------------------------------------------------
+r148 | kunda | 2008-12-09 09:35:55 +0000 (Tue, 09 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+deDE update (Gothik the Harvester, Amanitar & Commander Stoutbeard)
+------------------------------------------------------------------------
+r147 | StingerSoft | 2008-12-09 07:57:44 +0000 (Tue, 09 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU fix (Heigan the Unclean)
+------------------------------------------------------------------------
+r146 | dessa | 2008-12-08 15:00:26 +0000 (Mon, 08 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+deDE update
+
+------------------------------------------------------------------------
+r145 | 7destiny | 2008-12-07 20:55:29 +0000 (Sun, 07 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r144 | ananhaid | 2008-12-06 11:09:31 +0000 (Sat, 06 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN/zhTW fix.
+------------------------------------------------------------------------
+r143 | StingerSoft | 2008-12-06 09:32:12 +0000 (Sat, 06 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+added Infinite Corruptor in Stratholme Past (Heroic)
+update ruRU, deDE, frFR, enUS
+------------------------------------------------------------------------
+r142 | ananhaid | 2008-12-06 08:32:32 +0000 (Sat, 06 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN update. (Commander Stoutbeard - Official is crazy todo this) 
+------------------------------------------------------------------------
+r141 | zuz666 | 2008-12-06 07:36:39 +0000 (Sat, 06 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU fix
+------------------------------------------------------------------------
+r140 | ananhaid | 2008-12-05 15:20:56 +0000 (Fri, 05 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r139 | 7destiny | 2008-12-03 17:38:06 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Fix "Death knight Understudy"(spacing)
+------------------------------------------------------------------------
+r138 | fenlis | 2008-12-03 15:50:58 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0 : Fixed translation for koKR (Temp)
+------------------------------------------------------------------------
+r137 | 7destiny | 2008-12-03 15:39:06 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r136 | pettigrow | 2008-12-03 15:14:04 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+frFR Update
+------------------------------------------------------------------------
+r135 | elkano | 2008-12-03 12:45:56 +0000 (Wed, 03 Dec 2008) | 4 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+added 3 bosses to base:
+- Amanitar (Ahn'kahet: The Old Kingdom / heroic only)
+- Commander Stoutbeard (The Nexus / heroic only)
+- Archavon the Stone Watcher (Wintergrasp / Vault of Archavon)
+------------------------------------------------------------------------
+r134 | ananhaid | 2008-11-29 06:25:06 +0000 (Sat, 29 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r133 | dessa | 2008-11-27 21:37:37 +0000 (Thu, 27 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+some deDE bossname fixes
+
+------------------------------------------------------------------------
+r132 | ananhaid | 2008-11-27 13:36:40 +0000 (Thu, 27 Nov 2008) | 3 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN/zhTW update.(The Obsidian Sanctum zhTW locale confusion fixed)
+
+------------------------------------------------------------------------
+r131 | dessa | 2008-11-26 23:14:16 +0000 (Wed, 26 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+fixup deDE bossname
+
+------------------------------------------------------------------------
+r130 | Zuz666 | 2008-11-25 20:09:03 +0000 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU refix
+------------------------------------------------------------------------
+r129 | Zuz666 | 2008-11-25 17:22:20 +0000 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Correct ruRU bosses
+------------------------------------------------------------------------
+r128 | StingerSoft | 2008-11-25 15:56:34 +0000 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU fix
+------------------------------------------------------------------------
+r127 | sunmark | 2008-11-25 10:52:12 +0000 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+update zhTW
+------------------------------------------------------------------------
+r126 | pettigrow | 2008-11-24 20:28:46 +0000 (Mon, 24 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Fixed Sjonnir The Ironshaper
+------------------------------------------------------------------------
+r125 | arrowmaster | 2008-11-24 13:15:28 +0000 (Mon, 24 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Apply deDE fixes from yoshimo
+------------------------------------------------------------------------
+r124 | 7destiny | 2008-11-23 04:03:32 +0000 (Sun, 23 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update(fix Maiden of Grief)
+------------------------------------------------------------------------
+r123 | 7destiny | 2008-11-23 02:12:47 +0000 (Sun, 23 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r122 | StingerSoft | 2008-11-22 19:45:59 +0000 (Sat, 22 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU update (all wolk bosses)
+------------------------------------------------------------------------
+r121 | dessa | 2008-11-20 19:52:15 +0000 (Thu, 20 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+fix retarded typo
+
+------------------------------------------------------------------------
+r120 | 7destiny | 2008-11-18 14:10:21 +0000 (Tue, 18 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+
+------------------------------------------------------------------------
+r119 | dessa | 2008-11-16 23:06:38 +0000 (Sun, 16 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+fix deDE boss name
+
+------------------------------------------------------------------------
+r118 | maqjav | 2008-11-15 11:12:32 +0000 (Sat, 15 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss: esES update
+------------------------------------------------------------------------
+r117 | maqjav | 2008-11-15 11:03:03 +0000 (Sat, 15 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss: esES update
+------------------------------------------------------------------------
+r116 | maqjav | 2008-11-15 10:49:23 +0000 (Sat, 15 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss: esES update
+------------------------------------------------------------------------
+r115 | StingerSoft | 2008-11-15 09:41:51 +0000 (Sat, 15 Nov 2008) | 4 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+ruRU update 
+--The Nexus
+--Azjol-Nerub
+--Utgarde Keep
+------------------------------------------------------------------------
+r114 | volpo2001 | 2008-11-11 21:53:32 +0000 (Tue, 11 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+esES update
+------------------------------------------------------------------------
+r113 | Moncai | 2008-11-09 15:57:34 +0000 (Sun, 09 Nov 2008) | 3 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Fix: 
+Ticket 1 - Overmaster Pyron translation lost - esES
+
+------------------------------------------------------------------------
+r112 | Ackis | 2008-11-04 18:36:15 +0000 (Tue, 04 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Add zhTW translation per toshism, wtb localization mechanic for wowace/curseforge ckknight :P
+------------------------------------------------------------------------
+r111 | chiplss | 2008-11-02 06:27:01 +0000 (Sun, 02 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+add ruRU translate for "Overmaster Pyron"
+------------------------------------------------------------------------
+r110 | volpo2001 | 2008-10-30 18:35:37 +0000 (Thu, 30 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+esES update
+------------------------------------------------------------------------
+r109 | ozma211 | 2008-10-30 12:19:12 +0000 (Thu, 30 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR update
+------------------------------------------------------------------------
+r108 | sunmark | 2008-10-29 10:29:51 +0000 (Wed, 29 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+update zhTW
+------------------------------------------------------------------------
+r107 | sayclub | 2008-10-29 02:50:18 +0000 (Wed, 29 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+koKR update
+------------------------------------------------------------------------
+r106 | volpo2001 | 2008-10-28 16:00:03 +0000 (Tue, 28 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+esES update
+------------------------------------------------------------------------
+r105 | volpo2001 | 2008-10-28 15:57:43 +0000 (Tue, 28 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+esES update
+------------------------------------------------------------------------
+r104 | Ackis | 2008-10-22 17:18:18 +0000 (Wed, 22 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Add esMX section
+------------------------------------------------------------------------
+r103 | ananhaid | 2008-10-21 22:55:08 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- zhCN update.(miss some)
+------------------------------------------------------------------------
+r102 | trasher | 2008-10-21 20:21:46 +0000 (Tue, 21 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r101 | dessa | 2008-10-21 19:54:07 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+update deDE
+
+------------------------------------------------------------------------
+r100 | Ackis | 2008-10-21 19:46:17 +0000 (Tue, 21 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+Add Lord Kazzak and Overmaster Pyron
+------------------------------------------------------------------------
+r99 | gamefaq | 2008-10-18 18:26:14 +0000 (Sat, 18 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: deDE Update
+------------------------------------------------------------------------
+r97 | stanzilla | 2008-10-14 16:48:22 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.toc
+
+Update TOC for WotLK
+------------------------------------------------------------------------
+r96 | maqjav | 2008-10-14 15:57:16 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: esES update
+------------------------------------------------------------------------
+r95 | nevcairiel | 2008-10-12 11:39:10 +0000 (Sun, 12 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.toc
+
+Patch 3.0 prep: Remove LoD from Libraries that have no load manager (LoD+OptDep Bug)
+------------------------------------------------------------------------
+r94 | nevcairiel | 2008-10-09 21:51:52 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+WoWAce Post-Processing: Virtually inflate Library Revision numbers for proper upgrade path
+------------------------------------------------------------------------
+r93 | 7destiny | 2008-10-09 18:36:26 +0000 (Thu, 09 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+
+------------------------------------------------------------------------
+r92 | pettigrow | 2008-10-09 14:21:29 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+frFR Update
+------------------------------------------------------------------------
+r91 | volpo2001 | 2008-10-08 00:04:05 +0000 (Wed, 08 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Updated esES translation
+------------------------------------------------------------------------
+r90 | volpo2001 | 2008-10-05 00:01:16 +0000 (Sun, 05 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Updated esES translation
+------------------------------------------------------------------------
+r89 | ulic | 2008-10-04 18:50:46 +0000 (Sat, 04 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Added Eck the Ferocious located in Gundrak
+------------------------------------------------------------------------
+r88 | arrowmaster | 2008-10-04 01:30:09 +0000 (Sat, 04 Oct 2008) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/LibBabble-Boss-3.0.lua
+   M /trunk/LibBabble-Boss-3.0.toc
+
+Fix autoupdating minor version
+------------------------------------------------------------------------
+r87 | volpo2001 | 2008-10-04 00:09:48 +0000 (Sat, 04 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Updated esES translation
+------------------------------------------------------------------------
+r86 | root | 2008-09-29 22:02:14 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r84 | root | 2008-09-29 20:58:16 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/LibBabble-Boss-3.0
+   A /trunk (from /tmp/trunk/LibBabble-Boss-3.0:83)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r83 | pettigrow | 2008-09-12 18:07:32 +0000 (Fri, 12 Sep 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Added some WotLK bosses
+------------------------------------------------------------------------
+r82 | chuanhsing | 2008-09-12 05:39:21 +0000 (Fri, 12 Sep 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: update zhTW locale
+------------------------------------------------------------------------
+r81 | 7destiny | 2008-09-01 01:59:57 +0000 (Mon, 01 Sep 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r80 | 7destiny | 2008-08-27 15:35:44 +0000 (Wed, 27 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r79 | 7destiny | 2008-08-26 16:26:57 +0000 (Tue, 26 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r78 | pettigrow | 2008-08-25 16:52:20 +0000 (Mon, 25 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Added some WotLK bosses
+------------------------------------------------------------------------
+r77 | Cybersea | 2008-08-15 11:46:33 +0000 (Fri, 15 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: ruRU fix
+------------------------------------------------------------------------
+r76 | StingerSoft | 2008-08-13 00:39:57 +0000 (Wed, 13 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: fix ruRU
+------------------------------------------------------------------------
+r73 | pettigrow | 2008-08-10 15:06:36 +0000 (Sun, 10 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r72 | 7destiny | 2008-08-10 13:42:47 +0000 (Sun, 10 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r71 | 7destiny | 2008-08-10 03:57:57 +0000 (Sun, 10 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r70 | ulic | 2008-08-10 00:40:07 +0000 (Sun, 10 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Added "Constructor & Controller", used similar to "Romulo & Julianne"
+------------------------------------------------------------------------
+r69 | ulic | 2008-08-10 00:35:16 +0000 (Sun, 10 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Added the currently known WotLK bosses
+------------------------------------------------------------------------
+r68 | nightik | 2008-08-09 22:15:24 +0000 (Sat, 09 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: many fixes ruRU
+------------------------------------------------------------------------
+r67 | StingerSoft | 2008-08-09 16:21:56 +0000 (Sat, 09 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: fix ruRU typo
+------------------------------------------------------------------------
+r66 | StingerSoft | 2008-08-09 16:20:51 +0000 (Sat, 09 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: fix ruRU typo
+------------------------------------------------------------------------
+r65 | nightik | 2008-08-07 18:21:01 +0000 (Thu, 07 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: fix ruRU
+------------------------------------------------------------------------
+r64 | kunda | 2008-08-02 16:05:33 +0000 (Sat, 02 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: fix typo
+------------------------------------------------------------------------
+r63 | StingerSoft | 2008-07-21 04:18:36 +0000 (Mon, 21 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: fix ruRU translations
+------------------------------------------------------------------------
+r62 | StingerSoft | 2008-07-19 23:51:40 +0000 (Sat, 19 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: update ruRU translation
+------------------------------------------------------------------------
+r61 | StingerSoft | 2008-07-18 19:58:00 +0000 (Fri, 18 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: update ruRU translation
+------------------------------------------------------------------------
+r60 | 7destiny | 2008-07-18 08:19:57 +0000 (Fri, 18 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r59 | Cybersea | 2008-07-15 13:57:50 +0000 (Tue, 15 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: dummy ruRU localization. need total translate
+------------------------------------------------------------------------
+r58 | ensabahnur | 2008-06-28 08:57:18 +0000 (Sat, 28 Jun 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: - update deDe
+------------------------------------------------------------------------
+r57 | pettigrow | 2008-06-25 14:39:31 +0000 (Wed, 25 Jun 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r56 | ananhaid | 2008-06-25 09:11:06 +0000 (Wed, 25 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+- zhCN update.
+------------------------------------------------------------------------
+r55 | pettigrow | 2008-06-25 08:15:53 +0000 (Wed, 25 Jun 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r54 | 7destiny | 2008-06-25 07:25:46 +0000 (Wed, 25 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+- koKR Update
+------------------------------------------------------------------------
+r53 | scorpio0920 | 2008-06-25 06:53:39 +0000 (Wed, 25 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- Update zhTW localization.
+------------------------------------------------------------------------
+r52 | ulic | 2008-06-25 01:41:59 +0000 (Wed, 25 Jun 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Added Headless Horseman & Ahune
+------------------------------------------------------------------------
+r51 | cwdg | 2008-06-12 06:43:14 +0000 (Thu, 12 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+-Update zhCN locale
+------------------------------------------------------------------------
+r50 | scorpio0920 | 2008-05-30 17:30:41 +0000 (Fri, 30 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- Update zhTW localization.
+------------------------------------------------------------------------
+r49 | next96 | 2008-05-22 15:09:22 +0000 (Thu, 22 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+- Update locale koKR
+------------------------------------------------------------------------
+r48 | pettigrow | 2008-05-21 13:18:18 +0000 (Wed, 21 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r47 | funkydude | 2008-05-20 16:01:31 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: Fix solarian deDE (male > female)
+------------------------------------------------------------------------
+r46 | pettigrow | 2008-05-19 09:20:31 +0000 (Mon, 19 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r45 | gamefaq | 2008-05-07 16:20:04 +0000 (Wed, 07 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: deDE Update
+------------------------------------------------------------------------
+r44 | Devfool | 2008-05-07 13:53:42 +0000 (Wed, 07 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR update String Entropius missing
+------------------------------------------------------------------------
+r43 | zhucc | 2008-05-07 12:43:50 +0000 (Wed, 07 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: zhTW update
+------------------------------------------------------------------------
+r41 | gamefaq | 2008-04-19 22:14:14 +0000 (Sat, 19 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: deDE Update Sunwell Plateau Großhexenmeister Alythess -> Großhexenmeisterin Alythess
+------------------------------------------------------------------------
+r40 | 7destiny | 2008-04-17 22:18:43 +0000 (Thu, 17 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r39 | ananhaid | 2008-04-17 13:46:57 +0000 (Thu, 17 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+- zhCN update.
+------------------------------------------------------------------------
+r38 | ackis | 2008-04-16 23:50:02 +0000 (Wed, 16 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+- Add Entropius
+------------------------------------------------------------------------
+r37 | pettigrow | 2008-04-08 21:38:40 +0000 (Tue, 08 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r36 | pettigrow | 2008-04-06 19:03:18 +0000 (Sun, 06 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r35 | chuanhsing | 2008-03-31 02:24:22 +0000 (Mon, 31 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: update zhTW
+------------------------------------------------------------------------
+r34 | 7destiny | 2008-03-30 20:50:53 +0000 (Sun, 30 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.toc
+
+LibBabble-Boss-3.0: TOC 20400
+------------------------------------------------------------------------
+r33 | chuanhsing | 2008-03-27 03:56:52 +0000 (Thu, 27 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: update zhTW
+------------------------------------------------------------------------
+r32 | 7destiny | 2008-03-26 23:07:29 +0000 (Wed, 26 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r31 | pettigrow | 2008-03-26 20:14:53 +0000 (Wed, 26 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r29 | 7destiny | 2008-03-19 19:42:03 +0000 (Wed, 19 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r28 | ananhaid | 2008-03-16 14:20:23 +0000 (Sun, 16 Mar 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+- zhCN update.
+------------------------------------------------------------------------
+r27 | cwdg | 2008-03-10 08:09:00 +0000 (Mon, 10 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: zhCN update
+------------------------------------------------------------------------
+r26 | 7destiny | 2008-03-08 21:02:33 +0000 (Sat, 08 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: koKR Update
+------------------------------------------------------------------------
+r25 | cwdg | 2008-02-25 23:35:39 +0000 (Mon, 25 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: zhCN update
+------------------------------------------------------------------------
+r24 | gamefaq | 2008-02-25 19:17:20 +0000 (Mon, 25 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: deDE Update
+------------------------------------------------------------------------
+r23 | pettigrow | 2008-02-25 12:55:51 +0000 (Mon, 25 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r22 | 7destiny | 2008-02-24 02:27:15 +0000 (Sun, 24 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: 
+-Update locale koKR
+------------------------------------------------------------------------
+r21 | gamefaq | 2008-02-22 15:30:25 +0000 (Fri, 22 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: deDE Update
+------------------------------------------------------------------------
+r20 | pettigrow | 2008-02-19 12:13:53 +0000 (Tue, 19 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: frFR Update
+------------------------------------------------------------------------
+r19 | funkydude | 2008-02-19 00:42:09 +0000 (Tue, 19 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0: add The Eredar Twins
+------------------------------------------------------------------------
+r18 | kunda | 2008-02-18 20:59:08 +0000 (Mon, 18 Feb 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+
+LibBabble-Boss-3.0:
+- removed Warlord Jin'Zakk (not in game) from all locales
+- deDE update
+------------------------------------------------------------------------
+r17 | rabbit | 2008-02-17 12:09:38 +0000 (Sun, 17 Feb 2008) | 1 line
+Changed paths:
+   A /tmp/trunk/LibBabble-Boss-3.0
+   A /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.lua
+   A /tmp/trunk/LibBabble-Boss-3.0/LibBabble-Boss-3.0.toc
+   A /tmp/trunk/LibBabble-Boss-3.0/LibStub
+   A /tmp/trunk/LibBabble-Boss-3.0/LibStub/LibStub.lua
+   A /tmp/trunk/LibBabble-Boss-3.0/lib.xml
+
+LibBabble-Boss-3.0: Initial commit, copied from Babble-2.2.
+------------------------------------------------------------------------

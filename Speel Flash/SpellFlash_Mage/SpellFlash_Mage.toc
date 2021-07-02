@@ -1,0 +1,17 @@
+﻿## Interface: 40000
+## X-Compatible-With: 40000
+## Version: 1.1.4
+## Author: Exalter aka Oxie - Alexstrasza
+## Title: SpellFlash: Mage
+## Notes: This addon is able to make suggestions of what spell you may want to cast next by flashing on top of the spell buttons.
+## URL: http://wow.curse.com/downloads/wow-addons/details/spellflash_mage.aspx
+## Dependencies: SpellFlash
+## X-Curse-Packaged-Version: 1.1.4
+## X-Curse-Project-Name: SpellFlash: Mage
+## X-Curse-Project-ID: spellflash_mage
+## X-Curse-Repository-ID: wow/spellflash_mage/mainline
+OptionsFrame.xml
+Load.xml
+
+## LoadOnDemand: 1
+## X-SpellFlashAddon-LoadWith: Mage

@@ -1,0 +1,12 @@
+tag v1.2
+0a8e074cdc7ee46e42a3bf6bb7509b22c39a5a39
+unknown <Chris@.(none)>
+2009-12-08 17:58:37 -0700
+
+Tagging as 1.2
+
+
+--------------------
+
+unknown:
+	- Update for 3.3. Objective mover sucks, fix later.

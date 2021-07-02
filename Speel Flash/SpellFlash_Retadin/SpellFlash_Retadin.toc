@@ -1,0 +1,17 @@
+﻿## Interface: 40000
+## X-Compatible-With: 40000
+## Version: 2.0.1
+## Author: kklapwyk from YouTube.com
+## Title: SpellFlash: Retadin
+## Notes: This addon is able to make suggestions of what spell you may want to cast next by flashing on top of the spell buttons.
+## URL: http://wow.curse.com/downloads/wow-addons/details/spellflash_retadin.aspx
+## Dependencies: SpellFlash
+## X-Curse-Packaged-Version: 2.0.1
+## X-Curse-Project-Name: SpellFlash: Retadin
+## X-Curse-Project-ID: spellflash_retadin
+## X-Curse-Repository-ID: wow/spellflash_retadin/mainline
+OptionsFrame.xml
+Load.xml
+
+## LoadOnDemand: 1
+## X-SpellFlashAddon-LoadWith: Paladin

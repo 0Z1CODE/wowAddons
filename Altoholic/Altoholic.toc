@@ -1,0 +1,55 @@
+﻿## Interface: 30100
+## Title: Altoholic
+## Title-zhCN: |cffeedd99 [物品] |r: 全角色统计 Altoholic
+## Notes: Provides information about your alts
+## Notes-zhTW: 讓你即時撿閱你所有角色的資料
+## Notes-zhCN: 能让你全面掌握你的所有角色的信息。
+## Author: Thaoky
+## Version: 3.1.002b
+## OptionalDeps: Ace3, LibBabble-Zone-3.0, LibBabble-Boss-3.0, LibBabble-Inventory-3.0, LibBabble-Faction-3.0, LibBabble-Class-3.0, LibFuBarPlugin-3.0
+## SavedVariables: AltoholicDB
+## X-Category: Interface Enhancements
+## X-Embeds: Ace3, LibBabble-Zone-3.0, LibBabble-Boss-3.0, LibBabble-Inventory-3.0, LibBabble-Faction-3.0, LibBabble-Class-3.0, LibFuBarPlugin-3.0
+
+embeds.xml
+
+localization_enUS.lua
+localization_frFR.lua
+localization_deDE.lua
+localization_esES.lua
+localization_zhTW.lua
+localization_zhCN.lua
+localization_ruRU.lua
+
+AltoholicTemplates.xml
+Altoholic.xml
+
+
+Frames\TabSummary.xml
+Frames\TabCharacters.xml
+Frames\TabGuildBank.xml
+
+# Do not move Equipment.xml, must be loaded before TabSearch  (18/03/2009, Thaoky)
+Frames\Equipment.xml
+Frames\TabSearch.xml
+Frames\TabAchievements.xml
+Frames\TabOptions.xml
+
+Frames\AccountSummary.xml
+Frames\Achievements.xml
+Frames\Activity.xml
+Frames\AuctionHouse.xml
+Frames\BagUsage.xml
+Frames\Containers.xml
+Frames\GuildBank.xml
+Frames\GuildMembers.xml
+Frames\GuildBankTabs.xml
+Frames\GuildProfessions.xml
+Frames\Mails.xml
+Frames\Pets.xml
+Frames\Reputations.xml
+Frames\Recipes.xml
+Frames\Quests.xml
+Frames\Skills.xml
+Frames\Search.xml
+Frames\Talents.xml

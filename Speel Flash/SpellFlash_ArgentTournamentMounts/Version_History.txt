@@ -1,0 +1,117 @@
+
+
+
+== Version 1.17.4
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+
+
+== Version 1.17.3
+
+* Updated to be compatible with the 5.25 version of SpellFlash.
+
+
+== Version 1.17.2
+
+* Added additional cooldown checking for the Defend function.
+
+
+== Version 1.17.1
+
+* Removed Twilight Firelance from the list of required lances to be equipped.
+
+
+== Version 1.17
+
+* Fixed scripting bug.
+* Will now check to see if you have a lance equipped when you get into a vehicle so that the script is not ran when using other vehicles.
+
+
+== Version 1.16
+
+* Updated scripts for Cataclysm.
+* Bumped the toc file interface number to 40000.
+
+
+== Version 1.15
+
+* Updated Cataclysm compatibility for the 5.0 version of SpellFlash.
+
+
+== Version 1.14
+
+* Updated compatibility for the 4.2 version of SpellFlash.
+
+
+== Version 1.13
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 1.12.1
+
+* In the lua files now able to use the letter L in place of Table.Localize.
+
+
+== Version 1.12
+
+* Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+== Version 1.11
+
+* Now able to check if an item is castable.
+* Renamed localization variable from LOCALIZATION to Table.Localize.
+* Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+== Version 1.10
+
+* Reformatted title in the toc file.
+* Reformatted title in the options menu.
+
+
+== Version 1.09
+
+* Updated options frame to current template specs.
+
+
+== Version 1.08
+
+* Hopefully removed harmless error message from popping up.
+
+
+== Version 1.07
+
+* Added example text to localization files.
+* Updated options frame to current template specs.
+* Added a few more local functions to reduce the script size.
+* Renamed a few local functions to reduce the script size.
+* Using incremental version numbers again.
+
+
+== Version 1.04
+
+* Replaced the z.DebuffName and z.BuffName variables in the Castable functions with more specific variables.
+* The new z.Debuff, z.MyDebuff, z.Buff and z.MyBuff variables are now able to take either a single name or a table of names.
+
+
+== Version 1.03
+
+* Added more local functions to reduce the script size.
+
+
+== Version 1.02
+
+* Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+== Version 1.01
+
+* Added a child options frame.
+
+
+== Version 1.00
+
+* Separated functionality into a separate addon.
+

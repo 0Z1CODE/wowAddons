@@ -1,0 +1,14 @@
+This addon is able to make suggestions of what spell you may want to cast next by flashing on top of the spell buttons.
+
+To open the SpellFlash options window, you may use the following slash commands:
+/spellflash
+/sflash
+/sf
+
+
+If you have even five or ten dollars to spare it would mean an awful lot to me and my family.
+
+You may send any generous donations from this link:
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&item_name=SpellFlash%3A+Druid&hosted_button_id=4962619
+
+Donations are not required to use this addon, but they are very much appreciated.

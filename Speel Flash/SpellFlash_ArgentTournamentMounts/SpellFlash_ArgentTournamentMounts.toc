@@ -1,0 +1,17 @@
+﻿## Interface: 40000
+## X-Compatible-With: 40000
+## Version: 1.17.4
+## Author: BigRedBrent
+## Title: SpellFlash: Argent Tournament Mounts
+## Notes: This addon is able to make suggestions of what spell you may want to cast next by flashing on top of the spell buttons.
+## URL: http://wow.curse.com/downloads/wow-addons/details/spellflash.aspx
+## Dependencies: SpellFlash
+## X-Curse-Packaged-Version: 1.17.4
+## X-Curse-Project-Name: SpellFlash: Argent Tournament Mounts
+## X-Curse-Project-ID: spellflash_argenttournamentmount
+## X-Curse-Repository-ID: wow/spellflash_argenttournamentmount/mainline
+OptionsFrame.xml
+Load.xml
+
+## LoadOnDemand: 1
+## X-SpellFlashAddon-LoadWith: Any

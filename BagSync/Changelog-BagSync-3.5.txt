@@ -1,0 +1,14 @@
+tag 3.5
+9603929be7226bae151793a42e30ba27833b3fda
+Xruptor <xruptor@manaflux.com>
+2010-03-01 16:08:24 -0500
+
+Version 3.5
+
+
+--------------------
+
+Xruptor:
+	- Fixed a nil bug in the guild bank scanning.  IsTabViewable is no longer a usable function.
+	- Another test of me learning github.
+	- Initial Commit, second attempt :P

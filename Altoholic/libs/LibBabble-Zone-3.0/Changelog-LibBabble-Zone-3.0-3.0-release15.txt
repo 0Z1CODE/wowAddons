@@ -1,0 +1,1125 @@
+------------------------------------------------------------------------
+r202 | nevcairiel | 2009-04-14 15:46:50 +0000 (Tue, 14 Apr 2009) | 1 line
+Changed paths:
+   A /tags/3.0-release15 (from /trunk:201)
+
+Weekly Tag - Week 15
+------------------------------------------------------------------------
+r201 | nevcairiel | 2009-04-14 15:45:22 +0000 (Tue, 14 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+   M /trunk/LibBabble-Zone-3.0.toc
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r199 | nevcairiel | 2009-04-07 21:14:44 +0000 (Tue, 07 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r198 | nevcairiel | 2009-04-05 14:37:37 +0000 (Sun, 05 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r197 | nevcairiel | 2009-04-03 06:53:16 +0000 (Fri, 03 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r195 | nevcairiel | 2009-03-31 12:20:13 +0000 (Tue, 31 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r193 | nevcairiel | 2009-03-22 16:04:16 +0000 (Sun, 22 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r192 | nevcairiel | 2009-03-20 19:23:55 +0000 (Fri, 20 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r190 | nevcairiel | 2009-03-10 08:38:23 +0000 (Tue, 10 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r189 | nevcairiel | 2009-03-06 10:12:01 +0000 (Fri, 06 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.toc
+
+Restore LoD to Libraries, as 3.0.8 fixed all bugs that blocked LoD OptionalDeps to load properly.
+------------------------------------------------------------------------
+r188 | nevcairiel | 2009-03-04 17:57:26 +0000 (Wed, 04 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r186 | nevcairiel | 2009-02-24 13:18:45 +0000 (Tue, 24 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r184 | nevcairiel | 2009-02-03 10:09:37 +0000 (Tue, 03 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r183 | nevcairiel | 2009-01-30 18:40:54 +0000 (Fri, 30 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r181 | nevcairiel | 2009-01-27 10:16:37 +0000 (Tue, 27 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r180 | nevcairiel | 2009-01-22 15:53:18 +0000 (Thu, 22 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r179 | nevcairiel | 2009-01-21 08:00:53 +0000 (Wed, 21 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/LibBabble-3.0.lua
+   M /trunk/LibBabble-Zone-3.0.lua
+   M /trunk/lib.xml
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r177 | nevcairiel | 2009-01-20 21:02:33 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Various locale updates from tickets
+------------------------------------------------------------------------
+r176 | TrAsHeR | 2009-01-20 09:57:59 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r175 | StingerSoft | 2009-01-20 08:03:04 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruU update
+------------------------------------------------------------------------
+r174 | 7destiny | 2009-01-20 03:06:56 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r173 | dessa | 2009-01-19 23:47:18 +0000 (Mon, 19 Jan 2009) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+update deDE
+
+------------------------------------------------------------------------
+r172 | Azethoth | 2009-01-19 22:21:35 +0000 (Mon, 19 Jan 2009) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+-- "Krasus' Landing"
+
+------------------------------------------------------------------------
+r171 | daviesh | 2009-01-08 02:03:31 +0000 (Thu, 08 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Added 'Vault of Archavon' for esES
+------------------------------------------------------------------------
+r170 | lcf_hell | 2008-12-19 22:42:46 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU fix for "The Obsidian Sanctum"
+
+------------------------------------------------------------------------
+r169 | trasher | 2008-12-19 18:40:14 +0000 (Fri, 19 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r168 | maqjav | 2008-12-19 15:29:43 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+-- esES update
+------------------------------------------------------------------------
+r167 | lcf_hell | 2008-12-14 10:28:46 +0000 (Sun, 14 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU fix for "The Eye of Eternity"
+------------------------------------------------------------------------
+r166 | 7destiny | 2008-12-14 03:35:10 +0000 (Sun, 14 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r165 | pettigrow | 2008-12-13 11:26:01 +0000 (Sat, 13 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR Update
+------------------------------------------------------------------------
+r164 | akazik | 2008-12-10 18:39:40 +0000 (Wed, 10 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+deDE update
+
+------------------------------------------------------------------------
+r163 | dessa | 2008-12-08 15:00:02 +0000 (Mon, 08 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+deDE update
+
+------------------------------------------------------------------------
+r162 | 7destiny | 2008-12-07 16:41:12 +0000 (Sun, 07 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r161 | pettigrow | 2008-12-06 10:59:47 +0000 (Sat, 06 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR Update
+------------------------------------------------------------------------
+r160 | zuz666 | 2008-12-06 07:36:53 +0000 (Sat, 06 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU fix
+------------------------------------------------------------------------
+r159 | ananhaid | 2008-12-05 15:43:27 +0000 (Fri, 05 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r158 | StingerSoft | 2008-12-05 08:22:36 +0000 (Fri, 05 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU fix (The Culling of Stratholme)
+------------------------------------------------------------------------
+r157 | 7destiny | 2008-12-04 16:28:04 +0000 (Thu, 04 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Revert 154
+------------------------------------------------------------------------
+r156 | 7destiny | 2008-12-04 16:19:05 +0000 (Thu, 04 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+- change Archavon the Stone -> Vault of Archavon
+------------------------------------------------------------------------
+r155 | 7destiny | 2008-12-04 16:14:49 +0000 (Thu, 04 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+- add "Archavon the Stone"
+- koKR Update
+------------------------------------------------------------------------
+r154 | ananhaid | 2008-12-04 04:16:48 +0000 (Thu, 04 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r153 | fenlis | 2008-12-04 00:41:48 +0000 (Thu, 04 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 : Fixed translation for koKR
+------------------------------------------------------------------------
+r152 | trasher | 2008-12-03 23:47:35 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r151 | pettigrow | 2008-12-03 15:13:46 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR Update
+------------------------------------------------------------------------
+r150 | next96 | 2008-12-03 13:13:24 +0000 (Wed, 03 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 :
+- Update locale koKR
+------------------------------------------------------------------------
+r149 | elkano | 2008-12-03 12:46:25 +0000 (Wed, 03 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+added 1 instance to base: Vault of Archavon
+------------------------------------------------------------------------
+r148 | ananhaid | 2008-11-28 15:48:45 +0000 (Fri, 28 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r147 | adirelle | 2008-11-27 18:11:27 +0000 (Thu, 27 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update.
+------------------------------------------------------------------------
+r146 | gamefaq | 2008-11-25 17:38:44 +0000 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: deDE Update
+------------------------------------------------------------------------
+r145 | dessa | 2008-11-24 23:42:22 +0000 (Mon, 24 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+update deDE
+
+------------------------------------------------------------------------
+r144 | next96 | 2008-11-24 09:21:22 +0000 (Mon, 24 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 :
+- more koKR update
+------------------------------------------------------------------------
+r143 | fenlis | 2008-11-24 05:29:34 +0000 (Mon, 24 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Fixed - translation koKR
+------------------------------------------------------------------------
+r142 | ozma211 | 2008-11-21 19:27:41 +0000 (Fri, 21 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r141 | trasher | 2008-11-20 23:04:18 +0000 (Thu, 20 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r140 | trasher | 2008-11-20 22:28:31 +0000 (Thu, 20 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r139 | StingerSoft | 2008-11-20 21:52:09 +0000 (Thu, 20 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU update (Darkmoon Fair)
+------------------------------------------------------------------------
+r138 | Ackis | 2008-11-20 18:44:36 +0000 (Thu, 20 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Add Darkmoon Faire
+------------------------------------------------------------------------
+r137 | StingerSoft | 2008-11-19 23:02:27 +0000 (Wed, 19 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU update
+------------------------------------------------------------------------
+r136 | ananhaid | 2008-11-19 13:16:03 +0000 (Wed, 19 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r135 | next96 | 2008-11-19 02:29:09 +0000 (Wed, 19 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 :
+- more koKR update
+------------------------------------------------------------------------
+r134 | next96 | 2008-11-19 02:21:53 +0000 (Wed, 19 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 :
+- "Plaguelands: The Scarlet Enclave" koKR update
+------------------------------------------------------------------------
+r133 | sinepi | 2008-11-18 19:52:48 +0000 (Tue, 18 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Added "Plaguelands: The Scarlet Enclave" for enUS, frFR, deDE, ruRU and esES, based on WoWHead data.
+------------------------------------------------------------------------
+r132 | 7destiny | 2008-11-18 14:10:39 +0000 (Tue, 18 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r131 | 7destiny | 2008-11-18 13:07:19 +0000 (Tue, 18 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r130 | ananhaid | 2008-11-18 12:30:29 +0000 (Tue, 18 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r129 | trasher | 2008-11-18 09:22:01 +0000 (Tue, 18 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r128 | abydoslanti | 2008-11-17 22:32:39 +0000 (Mon, 17 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+New instance
+------------------------------------------------------------------------
+r127 | StingerSoft | 2008-11-16 21:55:59 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU wolk zone fix
+------------------------------------------------------------------------
+r126 | trasher | 2008-11-16 20:26:02 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r125 | trasher | 2008-11-16 18:39:58 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r124 | StingerSoft | 2008-11-16 16:24:01 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU update
+------------------------------------------------------------------------
+r123 | abydoslanti | 2008-11-16 15:44:31 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+New instance added
+------------------------------------------------------------------------
+r122 | abydoslanti | 2008-11-16 13:43:14 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Added "The Frozen Sea" in
+------------------------------------------------------------------------
+r121 | maqjav | 2008-11-15 10:50:22 +0000 (Sat, 15 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: esES update
+------------------------------------------------------------------------
+r120 | StingerSoft | 2008-11-01 13:51:20 +0000 (Sat, 01 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU update (fix typo in Ragefire Chasm)
+------------------------------------------------------------------------
+r119 | sunmark | 2008-10-29 09:58:12 +0000 (Wed, 29 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+- update zhTW
+------------------------------------------------------------------------
+r118 | sayclub | 2008-10-27 05:01:56 +0000 (Mon, 27 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR update
+------------------------------------------------------------------------
+r117 | StingerSoft | 2008-10-25 18:41:54 +0000 (Sat, 25 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU update
+------------------------------------------------------------------------
+r116 | sunmark | 2008-10-22 15:26:28 +0000 (Wed, 22 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhTW update
+------------------------------------------------------------------------
+r115 | ananhaid | 2008-10-21 22:55:46 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+ -zhCN update.
+------------------------------------------------------------------------
+r114 | StingerSoft | 2008-10-21 22:17:01 +0000 (Tue, 21 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+ruRU update
+------------------------------------------------------------------------
+r113 | dessa | 2008-10-21 21:30:59 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+update deDE
+
+------------------------------------------------------------------------
+r112 | StingerSoft | 2008-10-20 06:55:21 +0000 (Mon, 20 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+fix ruRU with 3.0.2 name changes (Eastern/Western Plaguelands)
+------------------------------------------------------------------------
+r111 | gamefaq | 2008-10-18 20:29:56 +0000 (Sat, 18 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: deDE Update
+------------------------------------------------------------------------
+r110 | StingerSoft | 2008-10-17 02:16:48 +0000 (Fri, 17 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Updated ruRU WoLk zone names
+------------------------------------------------------------------------
+r108 | stanzilla | 2008-10-14 16:47:01 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.toc
+
+Update TOC for WotLK
+------------------------------------------------------------------------
+r107 | maqjav | 2008-10-14 15:06:32 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: esES update
+------------------------------------------------------------------------
+r106 | ananhaid | 2008-10-13 00:18:14 +0000 (Mon, 13 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+ -zhCN update.
+------------------------------------------------------------------------
+r105 | nevcairiel | 2008-10-12 11:39:22 +0000 (Sun, 12 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.toc
+
+Patch 3.0 prep: Remove LoD from Libraries that have no load manager (LoD+OptDep Bug)
+------------------------------------------------------------------------
+r104 | nevcairiel | 2008-10-09 21:52:07 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+WoWAce Post-Processing: Virtually inflate Library Revision numbers for proper upgrade path
+------------------------------------------------------------------------
+r103 | nevcairiel | 2008-10-07 11:51:39 +0000 (Tue, 07 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.toc
+
+Fix UTF8 chars in .toc
+------------------------------------------------------------------------
+r102 | arrowmaster | 2008-10-04 01:31:49 +0000 (Sat, 04 Oct 2008) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/LibBabble-Zone-3.0.lua
+   M /trunk/LibBabble-Zone-3.0.toc
+   M /trunk/LibStub/LibStub.lua
+   M /trunk/lib.xml
+
+Fix autoupdating minor version
+------------------------------------------------------------------------
+r101 | root | 2008-09-29 21:50:18 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r99 | root | 2008-09-29 20:58:16 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/LibBabble-Zone-3.0
+   A /trunk (from /tmp/trunk/LibBabble-Zone-3.0:98)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r98 | StingerSoft | 2008-09-25 14:18:11 +0000 (Thu, 25 Sep 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- fix ruRU (Blackrock Depths)
+------------------------------------------------------------------------
+r97 | 7destiny | 2008-09-23 11:13:37 +0000 (Tue, 23 Sep 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r96 | cwdg | 2008-09-23 06:58:11 +0000 (Tue, 23 Sep 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- update WotLK zones zhCN
+------------------------------------------------------------------------
+r95 | pettigrow | 2008-09-12 17:14:13 +0000 (Fri, 12 Sep 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added some WotLK zones
+- Reorganized a bit the WotLK zones
+------------------------------------------------------------------------
+r94 | 7destiny | 2008-08-14 06:38:15 +0000 (Thu, 14 Aug 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r91 | pettigrow | 2008-08-10 15:05:50 +0000 (Sun, 10 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: frFR Update
+------------------------------------------------------------------------
+r90 | 7destiny | 2008-08-10 03:31:50 +0000 (Sun, 10 Aug 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Fixed typo
+------------------------------------------------------------------------
+r89 | 7destiny | 2008-08-10 03:24:11 +0000 (Sun, 10 Aug 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r88 | ReSa | 2008-08-10 01:16:46 +0000 (Sun, 10 Aug 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- More spelling mistakes
+------------------------------------------------------------------------
+r87 | ReSa | 2008-08-10 00:56:08 +0000 (Sun, 10 Aug 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added additional WoLK zones/instances
+- Fix spelling mistakes
+------------------------------------------------------------------------
+r86 | ulic | 2008-08-09 23:44:38 +0000 (Sat, 09 Aug 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added a few a missed before and place holders for all languages
+------------------------------------------------------------------------
+r85 | ulic | 2008-08-09 23:14:51 +0000 (Sat, 09 Aug 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added some WotLK zones & instances.
+------------------------------------------------------------------------
+r84 | sayclub | 2008-07-23 07:14:33 +0000 (Wed, 23 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r83 | nightik | 2008-07-23 06:20:33 +0000 (Wed, 23 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- update ruRU locale
+------------------------------------------------------------------------
+r82 | nightik | 2008-07-16 16:25:08 +0000 (Wed, 16 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- ruRU locale update
+------------------------------------------------------------------------
+r81 | Cybersea | 2008-07-15 15:54:36 +0000 (Tue, 15 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- ruRU update
+------------------------------------------------------------------------
+r80 | Cybersea | 2008-07-15 13:35:26 +0000 (Tue, 15 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- updated ruRU localization
+------------------------------------------------------------------------
+r79 | gchudov | 2008-07-13 16:02:38 +0000 (Sun, 13 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- ruRU localization
+------------------------------------------------------------------------
+r78 | toadkiller | 2008-07-08 06:46:10 +0000 (Tue, 08 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Dummy ruRU, cloned from deDE.  needs total translation
+------------------------------------------------------------------------
+r77 | linsu | 2008-06-12 02:44:08 +0000 (Thu, 12 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- fix zhTW.local
+------------------------------------------------------------------------
+r76 | scorpio0920 | 2008-05-27 04:56:17 +0000 (Tue, 27 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Update zhTW localization. (Thanks s095324)
+------------------------------------------------------------------------
+r75 | 7destiny | 2008-05-18 04:35:02 +0000 (Sun, 18 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r74 | ananhaid | 2008-05-16 02:56:44 +0000 (Fri, 16 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN update.
+------------------------------------------------------------------------
+r73 | toadkiller | 2008-05-15 10:31:17 +0000 (Thu, 15 May 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+-- esMX
+-- Blades Edge Plateau zonelets.
+------------------------------------------------------------------------
+r72 | chuanhsing | 2008-05-15 00:09:18 +0000 (Thu, 15 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- update zhTW
+------------------------------------------------------------------------
+r71 | kunda | 2008-05-14 12:35:36 +0000 (Wed, 14 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: deDE update
+------------------------------------------------------------------------
+r70 | 7destiny | 2008-05-14 10:26:17 +0000 (Wed, 14 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r69 | belazor | 2008-05-14 09:09:51 +0000 (Wed, 14 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added Stonard
+------------------------------------------------------------------------
+r68 | StiviS | 2008-05-11 09:51:53 +0000 (Sun, 11 May 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added UTF-8 unicode signature to file
+- esES: Fix 'Razorfen Downs'
+------------------------------------------------------------------------
+r67 | rabbit | 2008-05-07 15:41:54 +0000 (Wed, 07 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: Revert StiviS' commit.
+------------------------------------------------------------------------
+r66 | StiviS | 2008-05-07 15:29:13 +0000 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Added nil check to fix warn error in empty strings translations
+------------------------------------------------------------------------
+r65 | cwdg | 2008-05-06 06:05:08 +0000 (Tue, 06 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN locale update
+------------------------------------------------------------------------
+r64 | StiviS | 2008-05-05 18:10:33 +0000 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- esES updated
+------------------------------------------------------------------------
+r63 | StiviS | 2008-05-05 16:40:02 +0000 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- esES updated
+------------------------------------------------------------------------
+r62 | StiviS | 2008-05-05 15:23:02 +0000 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- esES updated
+------------------------------------------------------------------------
+r60 | StiviS | 2008-04-27 01:51:53 +0000 (Sun, 27 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- esES updated
+------------------------------------------------------------------------
+r59 | funkydude | 2008-04-05 17:27:18 +0000 (Sat, 05 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: esES update to fix bigwigs on spanish clients... apparently
+------------------------------------------------------------------------
+r58 | 7destiny | 2008-03-30 20:52:19 +0000 (Sun, 30 Mar 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+
+LibBabble-Zone-3.0:
+- TOC 20400
+------------------------------------------------------------------------
+r57 | chuanhsing | 2008-03-27 03:52:33 +0000 (Thu, 27 Mar 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- update zhTW
+------------------------------------------------------------------------
+r55 | ananhaid | 2008-03-16 14:21:07 +0000 (Sun, 16 Mar 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN update.
+------------------------------------------------------------------------
+r54 | pettigrow | 2008-03-13 15:28:53 +0000 (Thu, 13 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: frFR Update
+------------------------------------------------------------------------
+r53 | kurax | 2008-02-20 16:50:09 +0000 (Wed, 20 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- zhCN locale update
+------------------------------------------------------------------------
+r52 | helium | 2008-02-20 09:29:49 +0000 (Wed, 20 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- temp workaround in zhTW locale for the new 2.4 zones
+------------------------------------------------------------------------
+r51 | 7destiny | 2008-02-20 06:53:16 +0000 (Wed, 20 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Update locale koKR
+------------------------------------------------------------------------
+r50 | kunda | 2008-02-14 12:57:50 +0000 (Thu, 14 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: added Sunwell Plateau and Magisters' Terrace
+------------------------------------------------------------------------
+r49 | 7destiny | 2008-02-10 15:59:16 +0000 (Sun, 10 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r48 | kagaro | 2008-02-10 14:46:28 +0000 (Sun, 10 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: added sunwell zone name
+------------------------------------------------------------------------
+r47 | kunda | 2008-02-05 08:16:19 +0000 (Tue, 05 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: deDE update
+------------------------------------------------------------------------
+r46 | kunda | 2008-02-04 07:25:25 +0000 (Mon, 04 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+.LibBabble-Zone-3.0: deDE update
+------------------------------------------------------------------------
+r45 | 7destiny | 2008-02-04 05:19:15 +0000 (Mon, 04 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- koKR Update
+------------------------------------------------------------------------
+r44 | ckknight | 2008-02-04 00:11:53 +0000 (Mon, 04 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 - add Quel'thalas
+------------------------------------------------------------------------
+r43 | ckknight | 2008-02-03 02:14:45 +0000 (Sun, 03 Feb 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+.LibBabble-*-3.0 - upgrade LibBabble-3.0 to r2. Fixes an issue with error messages and upgrade issues
+
+------------------------------------------------------------------------
+r42 | funkydude | 2008-02-01 02:17:12 +0000 (Fri, 01 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+
+LibBabble-Zone-3.0: tweak toc name
+------------------------------------------------------------------------
+r41 | xionglingfeng | 2007-12-10 15:09:30 +0000 (Mon, 10 Dec 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Translate the Amani Pass into Chs.
+------------------------------------------------------------------------
+r40 | adirelle | 2007-12-09 16:17:19 +0000 (Sun, 09 Dec 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- updated frFR (Amani pass).
+------------------------------------------------------------------------
+r39 | 7destiny | 2007-11-25 10:24:01 +0000 (Sun, 25 Nov 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- updated koKR localization
+------------------------------------------------------------------------
+r38 | arrowmaster | 2007-11-25 05:47:29 +0000 (Sun, 25 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: fix utf8 bom
+------------------------------------------------------------------------
+r37 | kuja | 2007-11-25 05:30:46 +0000 (Sun, 25 Nov 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- deDE update
+------------------------------------------------------------------------
+r36 | scorpio0920 | 2007-11-25 04:33:20 +0000 (Sun, 25 Nov 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- Update zhTW translation.
+------------------------------------------------------------------------
+r35 | arrowmaster | 2007-11-25 02:45:40 +0000 (Sun, 25 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: added Amani Pass (subzone with Zul'Aman entrance) translations needed
+------------------------------------------------------------------------
+r34 | silviu | 2007-11-15 10:05:23 +0000 (Thu, 15 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+
+LibBabble-Zone-3.0: Bump toc to 20300
+------------------------------------------------------------------------
+r33 | funkydude | 2007-11-09 06:45:26 +0000 (Fri, 09 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+   M /tmp/trunk/LibBabble-Zone-3.0/lib.xml
+
+.trunk: revert back to having LibStub in toc's so we don't load 5 billion copies when we have addons with embeds. Authors, if you use a library that uses LibStub, embed the LibStub tag version with it, not the trunk. Carto/CowTip/FuBar/PitBull have been changed accordingly.
+------------------------------------------------------------------------
+r32 | funkydude | 2007-11-09 01:09:28 +0000 (Fri, 09 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+   M /tmp/trunk/LibBabble-Zone-3.0/lib.xml
+
+.trunk: move LS reference to xml file instead of toc for remaining libs
+------------------------------------------------------------------------
+r31 | funkydude | 2007-11-07 00:51:32 +0000 (Wed, 07 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+   A /tmp/trunk/LibBabble-Zone-3.0/LibStub
+   A /tmp/trunk/LibBabble-Zone-3.0/LibStub/LibStub.lua
+
+.trunk: Fix various libraries to use LibStub properly
+------------------------------------------------------------------------
+r30 | cwdg | 2007-10-27 20:29:16 +0000 (Sat, 27 Oct 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0:
+- fix the zhCN translation of "The Stockade"
+------------------------------------------------------------------------
+r29 | chuanhsing | 2007-10-22 04:28:35 +0000 (Mon, 22 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: zhTW update (thanks zhucc)
+------------------------------------------------------------------------
+r28 | candykiss | 2007-10-22 04:26:06 +0000 (Mon, 22 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: fix the zhCN translation of "The Eye"
+------------------------------------------------------------------------
+r27 | rabbit | 2007-10-17 14:09:49 +0000 (Wed, 17 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: Bugfix.
+------------------------------------------------------------------------
+r26 | helium | 2007-10-15 08:50:55 +0000 (Mon, 15 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0: updated zhTW localization
+------------------------------------------------------------------------
+r25 | ckknight | 2007-09-25 18:47:54 +0000 (Tue, 25 Sep 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+
+.Lib* - upgrade TOC to 20200
+
+------------------------------------------------------------------------
+r24 | ckknight | 2007-09-05 09:15:40 +0000 (Wed, 05 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 - fix typo
+------------------------------------------------------------------------
+r23 | ckknight | 2007-09-03 02:04:34 +0000 (Mon, 03 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 - upgrade to LibStub r2
+------------------------------------------------------------------------
+r22 | ckknight | 2007-09-02 19:41:12 +0000 (Sun, 02 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/lib.xml
+
+LibBabble-Zone-3.0 - capitalize <Script> instead of <script>
+------------------------------------------------------------------------
+r21 | ckknight | 2007-09-02 19:39:57 +0000 (Sun, 02 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/lib.xml
+
+LibBabble-Zone-3.0 - fix last commit
+------------------------------------------------------------------------
+r20 | ckknight | 2007-09-02 19:38:31 +0000 (Sun, 02 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/lib.xml
+
+LibBabble-Zone-3.0 - add xml header
+------------------------------------------------------------------------
+r19 | ckknight | 2007-09-02 19:29:49 +0000 (Sun, 02 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 - fix translations
+------------------------------------------------------------------------
+r18 | ckknight | 2007-09-02 19:21:25 +0000 (Sun, 02 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+
+LibBabble-Zone-3.0 - add documentation
+------------------------------------------------------------------------
+r17 | ckknight | 2007-09-02 19:06:10 +0000 (Sun, 02 Sep 2007) | 1 line
+Changed paths:
+   A /tmp/trunk/LibBabble-Zone-3.0
+   A /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.lua
+   A /tmp/trunk/LibBabble-Zone-3.0/LibBabble-Zone-3.0.toc
+   A /tmp/trunk/LibBabble-Zone-3.0/lib.xml
+
+LibBabble-Zone-3.0 - initial commit. I don't recommend using this, as the API may change.
+------------------------------------------------------------------------

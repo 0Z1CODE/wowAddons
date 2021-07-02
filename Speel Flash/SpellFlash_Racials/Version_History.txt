@@ -1,0 +1,124 @@
+
+
+
+== Version 2.3.1
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+
+
+== Version 2.3
+
+* War Stomp now accounts for its remaining cast time while casting.
+
+
+== Version 2.2
+
+* War Stomp now accounting for its cooldown for spell interruption to allow early indication while on cooldown.
+
+
+== Version 2.1
+
+* War Stomp will now only flash for a person who is channeling a spell if it will interrupt at least 5 seconds worth of channeling.
+* War Stomp will now still flash even if you are moving or casting War Stomp.
+
+
+== Version 2.0
+
+* Updated existing functionality to work with Cataclysm.
+* Added indicator for the Tauren's War Stomp ability for spell interruption.
+* Added indicator for the Goblin's Rocket Barrage ability.
+
+
+== Version 1.14.1
+
+* Bumped the toc file interface number to 40000.
+
+
+== Version 1.14
+
+* Added a clean slate for backward compatibility with Cataclysm.
+
+
+== Version 1.13
+
+* Updated compatibility for the 4.2 version of SpellFlash.
+
+
+== Version 1.12
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 1.11
+
+* Added Bloodelf, Troll, Orc and Gnome racial abilities.
+
+
+== Version 1.10.1
+
+* In the lua files now able to use the letter L in place of Table.Localize.
+
+
+== Version 1.10
+
+* Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+== Version 1.09
+
+* Now able to check if an item is castable.
+* Renamed localization variable from LOCALIZATION to Table.Localize.
+* Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+== Version 1.08
+
+* Reformatted title in the toc file.
+* Reformatted title in the options menu.
+
+
+== Version 1.07
+
+* Updated options frame to current template specs.
+
+
+== Version 1.06
+
+* Hopefully removed harmless error message from popping up.
+
+
+== Version 1.05
+
+* Added example text to localization files.
+* Updated options frame to current template specs.
+* Renamed a few local functions to reduce the script size.
+* Added a few more local functions to reduce the script size.
+* Using incremental version numbers again.
+
+
+== Version 1.04
+
+* Replaced the z.DebuffName and z.BuffName variables in the Castable functions with more specific variables.
+* The new z.Debuff, z.MyDebuff, z.Buff and z.MyBuff variables are now able to take either a single name or a table of names.
+
+
+== Version 1.03
+
+* Added more local functions to reduce the script size.
+
+
+== Version 1.02
+
+* Added the ability to not load an addon at all unless you log on with a specified class or race.
+* Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+== Version 1.01
+
+* Added a child options frame.
+
+
+== Version 1.00
+
+* Separated functionality into a separate addon.
+

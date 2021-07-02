@@ -1,0 +1,399 @@
+------------------------------------------------------------------------
+r88 | nevcairiel | 2009-04-14 15:46:40 +0000 (Tue, 14 Apr 2009) | 1 line
+Changed paths:
+   A /tags/3.0-release15 (from /trunk:87)
+
+Weekly Tag - Week 15
+------------------------------------------------------------------------
+r87 | nevcairiel | 2009-04-14 15:45:13 +0000 (Tue, 14 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.toc
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r85 | nevcairiel | 2009-03-06 10:11:54 +0000 (Fri, 06 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.toc
+
+Restore LoD to Libraries, as 3.0.8 fixed all bugs that blocked LoD OptionalDeps to load properly.
+------------------------------------------------------------------------
+r83 | nevcairiel | 2009-02-24 13:18:36 +0000 (Tue, 24 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r81 | nevcairiel | 2009-01-30 18:40:46 +0000 (Fri, 30 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r79 | nevcairiel | 2009-01-27 10:23:06 +0000 (Tue, 27 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/LibBabble-3.0.lua
+   M /trunk/LibBabble-Faction-3.0.lua
+   M /trunk/lib.xml
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r77 | nevcairiel | 2009-01-20 20:49:58 +0000 (Tue, 20 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+esES Update
+------------------------------------------------------------------------
+r76 | 7destiny | 2009-01-17 14:30:33 +0000 (Sat, 17 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+koKR Update
+------------------------------------------------------------------------
+r75 | trasher | 2008-12-19 18:33:07 +0000 (Fri, 19 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+misc update
+------------------------------------------------------------------------
+r74 | maqjav | 2008-12-19 15:18:12 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0:
+- esES update
+------------------------------------------------------------------------
+r73 | ozma211 | 2008-12-10 03:42:05 +0000 (Wed, 10 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+koKR update
+------------------------------------------------------------------------
+r72 | kunda | 2008-12-09 10:23:28 +0000 (Tue, 09 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+deDE update (The Frostborn)
+------------------------------------------------------------------------
+r71 | dessa | 2008-12-08 15:54:19 +0000 (Mon, 08 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+deDE update
+
+------------------------------------------------------------------------
+r70 | ananhaid | 2008-11-27 13:39:58 +0000 (Thu, 27 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r69 | StingerSoft | 2008-11-22 19:51:54 +0000 (Sat, 22 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+ruRU update (wolk factions)
+------------------------------------------------------------------------
+r68 | trasher | 2008-11-20 11:24:19 +0000 (Thu, 20 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r67 | Celellach | 2008-11-20 09:57:47 +0000 (Thu, 20 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+added Winterfin Retreat
+------------------------------------------------------------------------
+r66 | Ackis | 2008-11-19 17:11:12 +0000 (Wed, 19 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+deDE update thanks to LarryCurse
+------------------------------------------------------------------------
+r65 | Ackis | 2008-11-18 19:41:53 +0000 (Tue, 18 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+Comment out foo = true for deDE since there's no translation yet
+------------------------------------------------------------------------
+r64 | ananhaid | 2008-11-18 01:25:35 +0000 (Tue, 18 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0:
+ -zhCN/zhTW update.
+------------------------------------------------------------------------
+r63 | trasher | 2008-11-17 09:35:50 +0000 (Mon, 17 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r62 | trasher | 2008-11-17 09:21:48 +0000 (Mon, 17 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r61 | trasher | 2008-11-17 09:01:59 +0000 (Mon, 17 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r60 | dridzt | 2008-11-16 11:34:04 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+- faction typo fix: "Explorer's League" -> "Explorers' League"
+------------------------------------------------------------------------
+r59 | maqjav | 2008-11-15 11:12:40 +0000 (Sat, 15 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction: esES update
+------------------------------------------------------------------------
+r58 | maqjav | 2008-11-15 10:49:55 +0000 (Sat, 15 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction: esES update
+------------------------------------------------------------------------
+r57 | ozma211 | 2008-11-14 20:08:11 +0000 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+koKR update
+------------------------------------------------------------------------
+r56 | trasher | 2008-11-14 18:25:57 +0000 (Fri, 14 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+A-Z enUS & frFR
+frFR update
+------------------------------------------------------------------------
+r55 | trasher | 2008-11-14 09:23:50 +0000 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r54 | ackis | 2008-11-14 07:20:34 +0000 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+The Silver Convenant -> The Silver Covenant
+------------------------------------------------------------------------
+r53 | ackis | 2008-11-14 07:16:31 +0000 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+Add Alliance Vanguard and Horde Expedition
+------------------------------------------------------------------------
+r52 | ozma211 | 2008-10-30 12:03:14 +0000 (Thu, 30 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+koKR update
+------------------------------------------------------------------------
+r51 | ozma211 | 2008-10-29 03:52:57 +0000 (Wed, 29 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+koKR update(WotLK Factions)
+------------------------------------------------------------------------
+r50 | sunmark | 2008-10-28 14:22:07 +0000 (Tue, 28 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+-- update zhTW
+------------------------------------------------------------------------
+r49 | ozma211 | 2008-10-28 11:41:36 +0000 (Tue, 28 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+koKR update
+------------------------------------------------------------------------
+r48 | StingerSoft | 2008-10-22 19:20:29 +0000 (Wed, 22 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+ruRU update (wolk factions)
+------------------------------------------------------------------------
+r47 | gamefaq | 2008-10-18 20:30:18 +0000 (Sat, 18 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: deDE Update
+------------------------------------------------------------------------
+r46 | daviesh | 2008-10-14 19:17:49 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.toc
+
+Update toc for patch 3.0.2
+------------------------------------------------------------------------
+r45 | ananhaid | 2008-10-13 00:37:21 +0000 (Mon, 13 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0:
+ -zhCN update.
+------------------------------------------------------------------------
+r44 | nevcairiel | 2008-10-12 11:39:15 +0000 (Sun, 12 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.toc
+
+Patch 3.0 prep: Remove LoD from Libraries that have no load manager (LoD+OptDep Bug)
+------------------------------------------------------------------------
+r43 | nevcairiel | 2008-10-09 21:51:58 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+WoWAce Post-Processing: Virtually inflate Library Revision numbers for proper upgrade path
+------------------------------------------------------------------------
+r42 | pettigrow | 2008-10-09 15:30:55 +0000 (Thu, 09 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+- deDE/esES/ruRU Update
+- cleanup
+------------------------------------------------------------------------
+r41 | trasher | 2008-10-09 15:00:40 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r40 | daviesh | 2008-10-09 10:30:44 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+Cleanup to improve readability
+------------------------------------------------------------------------
+r39 | trasher | 2008-10-05 19:47:38 +0000 (Sun, 05 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+frFR update
+------------------------------------------------------------------------
+r38 | arrowmaster | 2008-10-04 01:30:52 +0000 (Sat, 04 Oct 2008) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/LibBabble-Faction-3.0.lua
+   M /trunk/LibBabble-Faction-3.0.toc
+   M /trunk/LibStub
+   M /trunk/LibStub/LibStub.lua
+
+Fix autoupdating minor version
+------------------------------------------------------------------------
+r37 | pettigrow | 2008-10-02 21:40:18 +0000 (Thu, 02 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: frFR Update
+------------------------------------------------------------------------
+r36 | Ackis | 2008-10-02 21:01:12 +0000 (Thu, 02 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Faction-3.0.lua
+
+Add missing factions in (commented out in all other locals so we need a translation), and added a commented out section for esMX
+------------------------------------------------------------------------
+r35 | root | 2008-09-29 21:54:32 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r33 | root | 2008-09-29 20:58:16 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/LibBabble-Faction-3.0
+   A /trunk (from /tmp/trunk/LibBabble-Faction-3.0:32)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r32 | cwdg | 2008-09-23 09:17:45 +0000 (Tue, 23 Sep 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: typo
+------------------------------------------------------------------------
+r31 | cwdg | 2008-09-23 06:13:25 +0000 (Tue, 23 Sep 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: 
+update WotLK factions zhCN & zhTW
+
+------------------------------------------------------------------------
+r30 | daviesh | 2008-09-18 15:34:15 +0000 (Thu, 18 Sep 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.toc
+
+LibBabble-Faction-3.0: Added WotLK factions
+------------------------------------------------------------------------
+r29 | StingerSoft | 2008-09-06 00:01:24 +0000 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: fix/update ruRU
+------------------------------------------------------------------------
+r28 | daviesh | 2008-08-19 12:23:56 +0000 (Tue, 19 Aug 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: Correction to the Shattered Sun Offensive in German submitted by a user.
+------------------------------------------------------------------------
+r25 | Swix | 2008-07-29 12:19:24 +0000 (Tue, 29 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: small ruRU fix
+------------------------------------------------------------------------
+r24 | Swix | 2008-07-16 12:10:58 +0000 (Wed, 16 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.toc
+
+LibBabble-Faction-3.0: Add ruRU translation.
+------------------------------------------------------------------------
+r23 | daviesh | 2008-06-16 13:51:35 +0000 (Mon, 16 Jun 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+
+LibBabble-Faction-3.0: Correction of Honor Hold for the french client
+------------------------------------------------------------------------
+r21 | ammo | 2008-04-13 08:24:08 +0000 (Sun, 13 Apr 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.toc
+
+.Undo all of Scorpio0920 schanges. You will lose your SVN account.
+I wish you were on IRC #wowace on freenode.net so we can have a chat.
+
+------------------------------------------------------------------------
+r20 | scorpio0920 | 2008-04-13 07:34:09 +0000 (Sun, 13 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.toc
+
+LibBabble-Faction-3.0:
+- toc to 2.4
+------------------------------------------------------------------------
+r19 | kurax | 2008-04-03 15:58:19 +0000 (Thu, 03 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibBabble-Faction-3.0
+   A /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.lua
+   A /tmp/trunk/LibBabble-Faction-3.0/LibBabble-Faction-3.0.toc
+   A /tmp/trunk/LibBabble-Faction-3.0/LibStub
+   A /tmp/trunk/LibBabble-Faction-3.0/LibStub/LibStub.lua
+   A /tmp/trunk/LibBabble-Faction-3.0/lib.xml
+
+LibBabble-Faction-3.0: Initial commit, copied from 2.2
+------------------------------------------------------------------------
+r18 | kurax | 2008-04-03 15:53:27 +0000 (Thu, 03 Apr 2008) | 1 line
+Changed paths:
+   A /tmp/trunk/LibBabble-Faction-3.0
+
+Remote folder create
+------------------------------------------------------------------------

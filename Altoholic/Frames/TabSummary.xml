@@ -1,0 +1,272 @@
+﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+	<Button name="SummaryMenuItemTemplate" inherits="MenuItemTemplate" hidden="false" virtual="true">
+		<Size>
+			<AbsDimension x="156" y="20"/>
+		</Size>
+		<Scripts>
+			<OnClick>
+				AltoholicTabSummary:SummaryMenuOnClick(self:GetID())
+			</OnClick>
+		</Scripts>
+	</Button>
+	
+	<Frame name="AltoholicTabSummary" parent="AltoholicFrame">
+		<Size>
+			<AbsDimension x="758" y="447"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT"/>
+		</Anchors>
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="$parent_CollapseAllText" inherits="GameFontNormalSmall" justifyH="LEFT" text="ALL">
+					<Size x="60" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="AltoholicFrameSearchLabel" relativePoint="TOPRIGHT" >
+							<Offset x="60" y="-13" />
+						</Anchor>
+					</Anchors>
+					<Color r="255" g="255" b="255" />
+				</FontString>
+				<FontString name="$parentStatus" inherits="GameFontNormal" justifyH="LEFT">
+					<Size x="320" y="24" />
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT">
+							<Offset x="-250" y="13" />
+						</Anchor>
+					</Anchors>
+					<Color r="255" g="255" b="255" />
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentMenuItem1" inherits="SummaryMenuItemTemplate" id="1" text="XML_ALTO_SUMMARY_MENU1">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="23" y="-105"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMenuItem2" inherits="SummaryMenuItemTemplate" id="2" text="XML_ALTO_SUMMARY_MENU2">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentMenuItem1" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMenuItem3" inherits="SummaryMenuItemTemplate" id="3" text="SKILLS">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentMenuItem2" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMenuItem4" inherits="SummaryMenuItemTemplate" id="4" text="XML_ALTO_SUMMARY_MENU4">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentMenuItem3" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMenuItem5" inherits="SummaryMenuItemTemplate" id="5" text="XML_ALTO_SUMMARY_MENU5">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentMenuItem4" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMenuItem6" inherits="SummaryMenuItemTemplate" id="6" text="XML_ALTO_SUMMARY_MENU6">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentMenuItem5" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMenuItem7" inherits="SummaryMenuItemTemplate" id="7" text="XML_ALTO_SUMMARY_MENU7">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentMenuItem6" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			
+			<Button name="$parent_Sort1" inherits="AltoSortButtonTemplate" id="1">
+				<Size>
+					<AbsDimension x="130" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AltoholicFrame_SearchEditBox" relativePoint="BOTTOMRIGHT">
+						<Offset>
+							<AbsDimension x="10" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort2" inherits="AltoSortButtonTemplate" id="2">
+				<Size>
+					<AbsDimension x="70" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort1" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort3" inherits="AltoSortButtonTemplate" id="3">
+				<Size>
+					<AbsDimension x="100" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort2" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort4" inherits="AltoSortButtonTemplate" id="4">
+				<Size>
+					<AbsDimension x="100" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort3" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort5" inherits="AltoSortButtonTemplate" id="5">
+				<Size>
+					<AbsDimension x="50" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort4" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort6" inherits="AltoSortButtonTemplate" id="6">
+				<Size>
+					<AbsDimension x="80" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort5" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort7" inherits="AltoSortButtonTemplate" id="7">
+				<Size>
+					<AbsDimension x="80" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort6" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Sort8" inherits="AltoSortButtonTemplate" id="8">
+				<Size>
+					<AbsDimension x="80" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_Sort7" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+
+			<Button name="$parentToggleView">
+				<Size>
+					<AbsDimension x="16" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AltoholicFrameSearchLabel" relativePoint="TOPRIGHT" >
+						<Offset x="40" y="-15" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						AltoholicTabSummary:ToggleView(self)
+					</OnClick>
+				</Scripts>
+				<NormalTexture name="$parentIcon" file="Interface\Buttons\UI-MinusButton-UP" />
+				<HighlightTexture file="Interface\Buttons\UI-PlusButton-Hilight" alphaMode="ADD" />
+			</Button>
+			<Frame name="$parent_SelectLocation" inherits="UIDropDownMenuTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_CollapseAllText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="-5"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						UIDropDownMenu_SetWidth(self, 100) 
+						UIDropDownMenu_SetButtonWidth(self, 20)
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<Button name="$parent_RequestSharing" inherits="UIPanelButtonTemplate" text="XML_ALTO_SUMMARY_TEXT4">
+				<Size>
+					<AbsDimension x="200" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent_SelectLocation" relativePoint="RIGHT" >
+						<Offset>
+							<AbsDimension x="20" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnter>
+						AltoTooltip:SetOwner(self, "ANCHOR_RIGHT");
+						AltoTooltip:ClearLines();
+						AltoTooltip:SetText(XML_ALTO_SUMMARY_TEXT1); 
+						AltoTooltip:AddLine(XML_ALTO_SUMMARY_TEXT2,1,1,1);
+						AltoTooltip:Show(); 
+					</OnEnter>
+					<OnLeave>
+						AltoTooltip:Hide();
+					</OnLeave>
+					<OnClick>
+						if Altoholic.Options:Get("AccSharingHandlerEnabled") == 0 then
+							Altoholic:Print(XML_ALTO_SUMMARY_TEXT3)
+							return
+						end
+						Altoholic:ToggleUI()
+						AltoAccountSharing:Show()
+					</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+	
+	<Script file="TabSummary.lua"></Script>
+</Ui>

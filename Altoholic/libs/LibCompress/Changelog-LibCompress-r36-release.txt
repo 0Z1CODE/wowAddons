@@ -1,0 +1,95 @@
+------------------------------------------------------------------------
+r37 | galmok | 2008-11-24 23:05:29 +0000 (Mon, 24 Nov 2008) | 1 line
+Changed paths:
+   A /tags/r36-release (from /trunk:36)
+
+Tagging as r36-release
+------------------------------------------------------------------------
+r36 | galmok | 2008-11-24 19:13:52 +0000 (Mon, 24 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/LibCompress.lua
+
+Optimized 7bit encoding and decoding speed.
+Increased revision to 6.
+------------------------------------------------------------------------
+r35 | galmok | 2008-11-24 18:12:38 +0000 (Mon, 24 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibCompress.lua
+
+Added two checksum/hash algorithms: FCS16 and FCS32
+------------------------------------------------------------------------
+r34 | galmok | 2008-11-23 16:10:34 +0000 (Sun, 23 Nov 2008) | 3 lines
+Changed paths:
+   M /trunk/LibCompress.lua
+
+Added 2 forms of encoding/decoding:
+- Prefix encoding (including mapping)
+- 7 bit encoding
+------------------------------------------------------------------------
+r32 | galmok | 2008-11-18 00:06:52 +0000 (Tue, 18 Nov 2008) | 3 lines
+Changed paths:
+   M /trunk/LibCompress.lua
+
+- CompressHuffman couldn't handler empty strings properly. Fixed.
+- DecompressHuffman could add quite a lot of symbols at the end of the decompressed string. Fixed.
+- Minor revision increased to 4.
+------------------------------------------------------------------------
+r30 | galmok | 2008-11-16 09:56:10 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/.pkgmeta
+   D /trunk/LibStub
+   M /trunk/lib.xml
+
+Updated LibCompress to use the .pkgmeta system.
+------------------------------------------------------------------------
+r29 | galmok | 2008-11-16 09:20:18 +0000 (Sun, 16 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibCompress.toc
+
+Fixed toc file to match wow 3.
+------------------------------------------------------------------------
+r27 | nevcairiel | 2008-10-09 21:52:15 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibCompress.lua
+
+WoWAce Post-Processing: Virtually inflate Library Revision numbers for proper upgrade path
+------------------------------------------------------------------------
+r26 | root | 2008-09-29 21:48:54 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r24 | root | 2008-09-29 20:58:17 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/LibCompress
+   A /trunk (from /tmp/trunk/LibCompress:23)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r21 | galmok | 2008-06-01 18:16:21 +0000 (Sun, 01 Jun 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibCompress/LibCompress.lua
+
+LibCompress: Fixed :Decompress being unable to decompress uncompressed data. Updated :CompressHuffman and :DecompressHuffman to reuse some tables without having to clear them. Slight speed increase end much less memory used. Tables are cleared (memory freed) after 15 second inactivity.
+------------------------------------------------------------------------
+r20 | galmok | 2008-05-17 20:41:34 +0000 (Sat, 17 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibCompress/LibCompress.lua
+   M /tmp/trunk/LibCompress/LibCompress.toc
+
+LibCompress: Added Huffman compression. Changed LZW format slightly. LibCompress:Compress() will compress using all methods and return best result. Use Libcompress:Decompress to uncompress data.
+------------------------------------------------------------------------
+r19 | jjsheets | 2008-05-12 00:11:16 +0000 (Mon, 12 May 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/LibCompress
+   A /tmp/trunk/LibCompress/LibCompress.lua
+   A /tmp/trunk/LibCompress/LibCompress.toc
+   A /tmp/trunk/LibCompress/LibStub
+   A /tmp/trunk/LibCompress/LibStub/LibStub.lua
+   A /tmp/trunk/LibCompress/lib.xml
+
+LibCompress: LZW based compression library.
+ - Initial Commit.
+------------------------------------------------------------------------

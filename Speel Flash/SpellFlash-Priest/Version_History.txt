@@ -1,0 +1,85 @@
+﻿== Version 1.8.6
+
+* Flashes VT DP 3 seconds early instead of 5 seconds
+
+== Version 1.8.5
+
+* Added Early refresh time to DP
+* Added a testion option (Option 3) in the /sf options menu
+
+== Version 1.8.4
+
+* Added a Testing Spec, for Mind Blast  (Option 3)
+
+== Version 1.8.3
+
+* Fixed issue with shackle undead, not flashing early before the CC Breaks.
+
+
+== Version 1.8.2
+
+* Mind Blast will now Flash Yellow if there is 2 or more stacks of Shadow Orbs on yourself.
+* Mind Blast will Flash Yellow if there is 2 stacks of Mind Melt on yourself.
+
+== Version 1.8.1
+
+* Fixed Buffs so they will no longer flash while in a area that buffs are not needed..
+* Changed Shackle Undead, Will no longer flash when the target is a boss.  Also will not flash if it is taking damage!
+
+== Version 1.8
+
+* Cata Ready!
+* Added Mind Spike to priority for cata
+* Added Shackle Undead..  Please look at the site for a easy to use macro!
+
+== Version 1.7.7
+
+* Added a option in the SpellFlash Options to turn the priority off.  Turns off all damage dealing abilities from flashing..
+* Fixed a bug with Dispersion.
+* Removed some functions not being used to increase performance! 
+
+== Version 1.7.6
+
+* Removed fade from flashing if not in group or raid.
+
+
+== Version 1.7.5
+
+* Updated to be compatible with the 5.51 version of SpellFlash.
+
+
+== Version 1.7.4
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+
+
+== Version 1.7.3
+
+* Updated to be compatible with the 5.25 version of SpellFlash.
+
+
+== Version 1.7.2
+
+* PW:F will no longer flash when Blood Pact is active
+* Changed the fade function slightly
+* Removed Holy Spells from flashing..
+* Only Abilities that Proc will flash, for Holy and Disc (Futrure Release)
+
+
+== Version 1.7.1
+
+* Fixed the Fade Function Bug
+
+
+== Version 1.7
+
+* Added Fade, fade will now flash when your aggro is at 95% or greater
+* Added SW:D will flash yellow when enemy at 25% health and just before Mind Blast in rotation
+* Changed Priority a bit..  Sw:p is now before DP, mainly for movement situations..
+* Shadowfiend is now in the rotation after VT..  Only if target is a boss
+* desperesion now flashes green when Out of combat and at 60% or less mana
+
+
+== Version 1.6
+
+* Updated for 4.0.1

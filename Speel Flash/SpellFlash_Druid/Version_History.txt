@@ -1,0 +1,74 @@
+
+
+
+== Version 5.4
+
+* Updated to use the BigLibTimer library included with SpellFlashCore.
+
+
+== Version 5.3
+
+* The timer functions are now handled by an internal library.
+
+
+== Version 5.2
+
+* Changed Priority slightly
+
+
+== Version 5.1 Beta
+
+* Huge Update!
+* Spell flashing is now determined by which form you are in!
+* Will flash Tree Form and Boomkin form
+* Thorns has been removed from flashing when in Boomkin and Tree form
+* While in Tree form Nature's Swiftness will flash Green When available
+* Moonkin now has a accurate timer for Eclipses
+* Moonfire and Insect Swarm are now set as #1 priority
+* Starfall has been added to increase DPS
+* Force of Nature will Flash Red when Heroism or Bloodlust is up
+* Big thanx to BigredBrent and also Guild ZAFIRAH - Alexstrasza 
+
+
+== Version 4.32
+
+* Added Innervate  - Thank you Zephora - Alexstrasza!!
+
+
+== Version 4.3
+
+* Made some adjustments
+
+
+== Version 4.1
+
+* Fixed a couple of things
+
+
+== Version 4.0
+
+* Boomkin Released!
+* Buffs now flash properly.
+* Please read description for Boomkin on the site for a list of things added!
+
+
+== Version 3.0.2
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 3.0
+
+* Savage roar was not working how it should have..  Very simple fix I am sorry it took so long to fix this!!!  But I didnt know about the problem, until I tested myself!
+* BigredBrent Cleaned up some of the scripting for me also!  Thanx BigRed!
+
+
+== Cat Form (Beta)
+
+* Added some options in the options menu!  Please Choose the right one for you!
+* /sf or /Spellflash
+* Refresh Rates are now applied to Rip, Rake, and Savage Roar..  You have 2 Options for Refresh rate..  +2 Seconds, and +3 Seconds
+* Savage Roar is now fixed!
+* Default Settings are for Level 80 Druids, You will have to change the settings (/sf or /Spellflash)  if you are a lower level!!
+* I have tested the addon myself and everything works!
+

@@ -1,0 +1,156 @@
+
+
+
+=== ** SpellFlashCore.FlashAction
+
+This is used to flash an action bar spell.
+
+<<code lua>>SpellFlashCore.FlashAction(SpellName, color, size, brightness, blink, NoMacros)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		String of the localized spell name or Number of the global spell ID.
+; ** color
+:		Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined by this addon. May be nil for White.
+; ** size
+:		Number representing the percent size of the flash. If nil will use a default value.
+; ** brightness
+:		Number from 0 to 100 representing the percent brightness of the flash. If nil will use 100.
+; ** blink
+:		If true will enable blinking of spell buttons causing them to fade in and out.
+; ** NoMacros
+:		If true will not flash macros.
+
+----
+
+=== ** SpellFlashCore.FlashForm
+
+This is used to flash a stance, form, presence, aura or aspect bar spell.
+
+<<code lua>>SpellFlashCore.FlashForm(SpellName, color, size, brightness, blink)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		String of the localized spell name or Number of the global spell ID.
+; ** color
+:		Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined by this addon. May be nil for White.
+; ** size
+:		Number representing the percent size of the flash. If nil will use a default value.
+; ** brightness
+:		Number from 0 to 100 representing the percent brightness of the flash. If nil will use 100.
+; ** blink
+:		If true will enable blinking of spell buttons causing them to fade in and out.
+
+----
+
+=== ** SpellFlashCore.FlashPet
+
+This is used to flash a pet bar spell.
+
+<<code lua>>SpellFlashCore.FlashPet(SpellName, color, size, brightness, blink)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		String of the localized spell name or Number of the global spell ID.
+; ** color
+:		Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined by this addon. May be nil for White.
+; ** size
+:		Number representing the percent size of the flash. If nil will use a default value.
+; ** brightness
+:		Number from 0 to 100 representing the percent brightness of the flash. If nil will use 100.
+; ** blink
+:		If true will enable blinking of spell buttons causing them to fade in and out.
+
+----
+
+=== ** SpellFlashCore.FlashVehicle
+
+This is used to flash a vehicle bar spell.
+
+<<code lua>>SpellFlashCore.FlashVehicle(SpellName, color, size, brightness, blink)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		String of the localized spell name or Number of the global spell ID.
+; ** color
+:		Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined by this addon. May be nil for White.
+; ** size
+:		Number representing the percent size of the flash. If nil will use a default value.
+; ** brightness
+:		Number from 0 to 100 representing the percent brightness of the flash. If nil will use 100.
+; ** blink
+:		If true will enable blinking of spell buttons causing them to fade in and out.
+
+----
+
+=== ** SpellFlashCore.Flashable
+
+This is a function to discover if a specified spell is able to be found on the action bars to be flashed.
+
+<<code lua>>Found = SpellFlashCore.Flashable(SpellName, NoMacros)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		String of the localized spell name or Number of the global spell ID.
+; ** NoMacros
+:		If true will skip checking for macros.
+
+===== ** Returns:
+
+; ** Found
+:		Boolean indicating if a specified spell is able to be found on the action bars to be flashed.
+
+----
+
+=== ** SpellFlashCore.RegisterDebugEvent
+
+This will register an event for debugging purposes.
+
+Debug slash command: ** /spellflashcore debug
+
+Debug event slash command: ** /spellflashcore event EVENT_NAME
+
+<<code lua>>SpellFlashCore.RegisterDebugEvent(event)<</code>>
+
+===== ** Arguments:
+
+; ** event
+:		Event string name to register.
+
+----
+
+=== ** SpellFlashCore.UnregisterDebugEvent
+
+This will unregister an event for debugging purposes.
+
+Debug slash command: ** /spellflashcore debug
+
+Debug event slash command: ** /spellflashcore unregister event EVENT_NAME
+
+<<code lua>>SpellFlashCore.UnregisterDebugEvent(event)<</code>>
+
+===== ** Arguments:
+
+; ** event
+:		Event string name to unregister.
+
+----
+
+=== ** SpellFlashCore.debug
+
+This will dump the value of msg to the default chat window if debug mode has been enabled.
+
+Debug slash command: ** /spellflashcore debug
+
+<<code lua>>SpellFlashCore.debug(...)<</code>>
+
+===== ** Arguments:
+
+; ** ...
+:		String, number or array of strings and numbers that will be sent to the default chat window.
+

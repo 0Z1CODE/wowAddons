@@ -1,0 +1,2473 @@
+= local s = SpellFlashAddon
+
+\\
+----
+\\
+
+=== ** s.SpellName
+
+This returns the localized spell name.
+
+<<code lua>>name = s.SpellName(SpellID, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellID
+:		(number) Global spell ID number.
+; ** NoSubName
+:		(boolean) If true will not return the spell name with the sub name attached.
+
+===== ** Returns:
+
+; ** name
+:		(string) Localized spell name.
+
+\\
+----
+\\
+
+=== ** s.ItemName
+
+This returns the localized item name.
+
+<<code lua>>name = s.ItemName(ItemID)<</code>>
+
+===== ** Arguments:
+
+; ** ItemID
+:		(number) Global item ID number.
+
+===== ** Returns:
+
+; ** name
+:		(string) Localized item name.
+
+\\
+----
+\\
+
+=== ** s.Class
+
+This is used to determine the class of a unit.
+
+<<code lua>>CLASS = s.Class(unit, class)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** class
+:		(string or table or nil) English class name or table of class names to compare to. This is not case sensitive and spaces are ignored.
+
+===== ** Returns:
+
+; ** CLASS
+:		(string or nil) English all capital no spaces class name or nil if the unit is not a player or did not match a given class name.
+
+\\
+----
+\\
+
+=== ** s.Race
+
+This is used to determine the race of a unit.
+
+<<code lua>>RACE = s.Race(unit, race)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** race
+:		(string or table or nil) English race name or table of race names to compare to. This is not case sensitive and spaces are ignored.
+
+===== ** Returns:
+
+; ** RACE
+:		(string or nil) English all capital no spaces race name or nil if the unit is not a player or did not match a given race name.
+
+\\
+----
+\\
+
+=== ** s.Healer
+
+This is used to check for a healer class.
+
+<<code lua>>ID = s.Healer(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to check raid and party members or "party" to only check party members. You may also add a combination of options separated by a line pipe such as "raid|range|afk|notself". Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself.
+
+===== ** Returns:
+
+; ** ID
+:		(string or nil) UnitId of the first found healer class or nil if the unit is not a healer or did not match a given option.
+
+\\
+----
+\\
+
+=== ** s.Form
+
+This will return the current stance or form that you are in if you are a Druid or Warrior.
+
+<<code lua>>currentForm = s.Form(form)<</code>>
+
+===== ** Arguments:
+
+; ** form
+:		(string or number or nil) Localized form or stance name or global id number of the spell to compare to.
+
+===== ** Returns:
+
+; ** currentForm
+:		(string or nil) Currently used localized form or stance name or nil if you are not in a form or it did not match the given form or stance name.
+
+\\
+----
+\\
+
+=== ** s.InCombat
+
+This is used to determine if you are in combat.
+
+<<code lua>>inCombat = s.InCombat()<</code>>
+
+===== ** Returns:
+
+; ** inCombat
+:		(boolean) True if you are in combat.
+
+\\
+----
+\\
+
+=== ** s.Shooting
+
+Determines if the player is casting a spell which automatically repeats, such as Shoot for wand users.
+
+<<code lua>>isShooting = s.Shooting()<</code>>
+
+===== ** Returns:
+
+; ** isShooting
+:		(boolean) True if you are shooting.
+
+\\
+----
+\\
+
+=== ** s.MeleeDistance
+
+Determine if you are within melee distance.
+
+<<code lua>>withinMeleeRange = s.MeleeDistance(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** withinMeleeRange
+:		(boolean) True if you are within melee range of the target if melee distance can be determined, otherwise true if you are within 10 yards of the target.
+
+\\
+----
+\\
+
+=== ** s.GUIDInfo
+
+Decodes the unit GUID string to find the identification information.
+
+<<code lua>>Type, ID = s.GUIDInfo(GUID)<</code>>
+
+===== ** Arguments:
+
+; ** GUID
+:		(string) The GUID string of the unit.
+
+===== ** Returns:
+
+; ** Type
+:		(string) The unit type: "player", "npc", "pet", "vehicle" or "unknown".
+; ** ID
+:		(number or nil) The unit identification number.
+
+\\
+----
+\\
+
+=== ** s.UnitInfo
+
+Decodes the unit GUID string to find the identification information.
+
+<<code lua>>Type, ID = s.UnitInfo(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** Type
+:		(string or nil) The unit type: "player", "npc", "pet", "vehicle" or "unknown".
+; ** ID
+:		(number or nil) The unit identification number.
+
+\\
+----
+= ** Talent
+----
+\\
+
+=== ** s.HasTalent
+
+Determines if you have any points spent on a talent.
+
+<<code lua>>hasTalent = s.HasTalent(TalentName)<</code>>
+
+===== ** Arguments:
+
+; ** TalentName
+:		(string or number) Localized name or global id number of the talent.
+
+===== ** Returns:
+
+; ** hasTalent
+:		(boolean) True if you have any points spent on the talent.
+
+\\
+----
+\\
+
+=== ** s.TalentRank
+
+Determines the amount of points spent on a talent.
+
+<<code lua>>rank = s.TalentRank(TalentName)<</code>>
+
+===== ** Arguments:
+
+; ** TalentName
+:		(string or number) Localized name or global id number of the talent.
+
+===== ** Returns:
+
+; ** rank
+:		(number) Amount of points spent on the talent.
+
+\\
+----
+\\
+
+=== ** s.TalentMastery
+
+Determines the talent tree with the most points spent in it.
+
+<<code lua>>hasMastery = s.TalentMastery(TreeTabNumber)<</code>>
+
+===== ** Arguments:
+
+; ** TreeTabNumber
+:		(number or nil) Number representing the talent tree tab.
+
+===== ** Returns:
+
+; ** hasMastery
+:		(number or nil) Number representing the talent tree tab, or nil if no talent points are spent or the talent tree number does not match the given talent tree number.
+
+\\
+----
+= ** Spell
+----
+\\
+
+=== ** s.Autocast
+
+Determines if a spell is set to autocast or not.
+
+<<code lua>>autocastOn = s.Autocast(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** autocastOn
+:		(boolean) True if the spell is set to autocast.
+
+\\
+----
+\\
+
+=== ** s.CastTime
+
+Determine the amount of time it will take a spell to cast from start to finish.
+
+<<code lua>>castTime = s.CastTime(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** castTime
+:		(number) Seconds it will take a spell to cast from start to finish.
+
+\\
+----
+\\
+
+=== ** s.SpellCost
+
+Determines the power cost of the spell.
+
+<<code lua>>cost = s.SpellCost(SpellName, PowerType)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** PowerType
+:		(number or nil) Power type required.
+
+===== ** Returns:
+
+; ** cost
+:		(number) Power cost of the spell.
+
+\\
+----
+\\
+
+=== ** s.SpellInRange
+
+Determines if a spell is in range of a target.
+
+<<code lua>>inRange = s.SpellInRange(SpellName, unit)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** inRange
+:		(boolean) True if the spell is in range of a target.
+
+\\
+----
+\\
+
+=== ** s.SpellHasRange
+
+Determines if a spell has a range limitation.
+
+<<code lua>>hasRange = s.SpellHasRange(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** hasRange
+:		(boolean) True if the spell has a range limitation.
+
+\\
+----
+\\
+
+=== ** s.UsableSpell
+
+Determines whether a spell can be used by the player character.
+
+<<code lua>>isUsable, notEnoughMana = s.UsableSpell(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** isUsable
+:		(boolean) True if the player has learned the spell, has the required power and reagents, and reactive conditions have been met.
+; ** notEnoughMana
+:		(boolean) True if the spell can not be cast due to low power.
+
+\\
+----
+\\
+
+=== ** s.CurrentSpell
+
+Determines if one of your spells is currently casting, channeling or turned on.
+
+<<code lua>>isCurrent = s.CurrentSpell(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** isCurrent
+:		(boolean) True if the spell is currently casting, channeling or turned on.
+
+\\
+----
+= ** Availability
+----
+\\
+
+=== ** s.HasSpell
+
+Determines if you have learned a spell.
+
+<<code lua>>isKnown = s.HasSpell(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** isKnown
+:		(boolean) True if you have learned the spell.
+
+\\
+----
+\\
+
+=== ** s.HasItem
+
+Determines if you have an item. Does not look in your bank inventory.
+
+<<code lua>>hasItem = s.HasItem(ItemName)<</code>>
+
+===== ** Arguments:
+
+; ** ItemName
+:		(string or number) Localized name or global id number of the item.
+
+===== ** Returns:
+
+; ** hasItem
+:		(boolean) True if you have the item.
+
+\\
+----
+\\
+
+=== ** s.HasGlyph
+
+Determines if you are currently using a glyph.
+
+<<code lua>>found = s.HasGlyph(GlyphName)<</code>>
+
+===== ** Arguments:
+
+; ** GlyphName
+:		(string or number) Localized name or global spell id number of the glyph.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if you are currently using the glyph.
+
+\\
+----
+= ** Cooldown
+----
+\\
+
+=== ** s.SpellCooldown
+
+This determines the current cooldown of the spell, including a global cooldown.
+
+<<code lua>>timeLeft, duration = s.SpellCooldown(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell. If nil then this function will return a nil value instead of a number.
+
+===== ** Returns:
+
+; ** timeLeft
+:		(number) Seconds currently remaining on the cooldown or 0 if not on cooldown.
+; ** duration
+:		(number) Seconds the current cooldown will last in total or 0 if not on cooldown.
+
+\\
+----
+\\
+
+=== ** s.ItemCooldown
+
+This determines the current cooldown of the item, including a global cooldown.
+
+<<code lua>>timeLeft, duration = s.ItemCooldown(ItemName)<</code>>
+
+===== ** Arguments:
+
+; ** ItemName
+:		(string or number) Localized name or global id number of the item. If nil then this function will return a nil value instead of a number.
+
+===== ** Returns:
+
+; ** timeLeft
+:		(number) Seconds currently remaining on the cooldown or 0 if not on cooldown.
+; ** duration
+:		(number) Seconds the current cooldown will last in total or 0 if not on cooldown.
+
+\\
+----
+\\
+
+=== ** s.ActionCooldown
+
+This determines the current cooldown of the action bar button, including a global cooldown.
+
+<<code lua>>timeLeft, duration = s.ActionCooldown(ActionID)<</code>>
+
+===== ** Arguments:
+
+; ** ActionID
+:		(number) Slot number of the action bar button. If nil then this function will return a nil value instead of a number.
+
+===== ** Returns:
+
+; ** timeLeft
+:		(number) Seconds currently remaining on the cooldown or 0 if not on cooldown.
+; ** duration
+:		(number) Seconds the current cooldown will last in total or 0 if not on cooldown.
+
+\\
+----
+\\
+
+=== ** s.PetActionCooldown
+
+This determines the current cooldown of the pet action bar button, including a global cooldown.
+
+<<code lua>>timeLeft, duration = s.PetActionCooldown(PetActionID)<</code>>
+
+===== ** Arguments:
+
+; ** PetActionID
+:		(number) Slot number of the pet action bar button. If nil then this function will return a nil value instead of a number.
+
+===== ** Returns:
+
+; ** timeLeft
+:		(number) Seconds currently remaining on the cooldown or 0 if not on cooldown.
+; ** duration
+:		(number) Seconds the current cooldown will last in total or 0 if not on cooldown.
+
+\\
+----
+= ** Casting and Channeling
+----
+\\
+
+=== ** s.Casting
+
+Determines if a spell is casting.
+
+<<code lua>>remaining = s.Casting(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the cast is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for a sub-name match.
+
+===== ** Returns:
+
+; ** remaining
+:		(number or nil) Seconds remaining on the cast, or nil for none.
+
+\\
+----
+\\
+
+=== ** s.Channeling
+
+Determines if a spell is channeling.
+
+<<code lua>>remaining = s.Channeling(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the channel is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for a sub-name match.
+
+===== ** Returns:
+
+; ** remaining
+:		(number or nil) Seconds remaining on the channel, or nil for none.
+
+\\
+----
+\\
+
+=== ** s.CastingOrChanneling
+
+Determines if a spell is casting or channeling.
+
+<<code lua>>remaining = s.CastingOrChanneling(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the cast or channel is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for a sub-name match.
+
+===== ** Returns:
+
+; ** remaining
+:		(number or nil) Seconds remaining on the cast or channel, or nil for none.
+
+\\
+----
+\\
+
+=== ** s.GetCasting
+
+Determines the seconds remaining on a spell that is casting.
+
+<<code lua>>remaining = s.GetCasting(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the cast is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for a sub-name match.
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds remaining on the cast, or 0 for none.
+
+\\
+----
+\\
+
+=== ** s.GetChanneling
+
+Determines the seconds remaining on a spell that is channeling.
+
+<<code lua>>remaining = s.GetChanneling(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the channel is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for a sub-name match.
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds remaining on the channel, or 0 for none.
+
+\\
+----
+\\
+
+=== ** s.GetCastingOrChanneling
+
+Determines the seconds remaining on a spell that is casting or channeling.
+
+<<code lua>>remaining = s.GetCastingOrChanneling(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the cast or channel is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for a sub-name match.
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds remaining on the cast or channel, or 0 for none.
+
+\\
+----
+\\
+
+=== ** s.CastingName
+
+Returns the name of a spell that is casting.
+
+<<code lua>>name = s.CastingName(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the cast is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for or return a sub-name match.
+
+===== ** Returns:
+
+; ** name
+:		(string or nil) Name of the spell that is casting or nil for none.
+
+\\
+----
+\\
+
+=== ** s.ChannelingName
+
+Returns the name of a spell that is channeling.
+
+<<code lua>>name = s.ChannelingName(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the channel is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for or return a sub-name match.
+
+===== ** Returns:
+
+; ** name
+:		(string or nil) Name of the spell that is channeling or nil for none.
+
+\\
+----
+\\
+
+=== ** s.CastingOrChannelingName
+
+Returns the name of a spell that is casting or channeling.
+
+<<code lua>>name = s.CastingOrChannelingName(SpellName, unit, interruptible, NoSubName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** interruptible
+:		(boolean) If true will check to see if the cast or channel is interruptible.
+; ** NoSubName
+:		(boolean) If true will not look for or return a sub-name match.
+
+===== ** Returns:
+
+; ** name
+:		(string or nil) Name of the spell that is casting or channeling or nil for none.
+
+\\
+----
+= ** Target
+----
+\\
+
+=== ** s.Enemy
+
+Determines if a target is able to be attacked by you.
+
+<<code lua>>found = s.Enemy(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is able to be attacked by you.
+
+\\
+----
+\\
+
+=== ** s.ActiveEnemy
+
+Determines if a target is able to be attacked by you, and is in combat or is a player, and is not crowed controlled.
+
+<<code lua>>found = s.ActiveEnemy(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is able to be attacked by you, and is in combat or is a player, and is not crowed controlled.
+
+\\
+----
+\\
+
+=== ** s.GivesXP
+
+Determines if a target is able to give you honor or experience points if you kill it.
+
+<<code lua>>found = s.GivesXP(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is able to give you honor or experience points if you kill it.
+
+\\
+----
+\\
+
+=== ** s.Boss
+
+Determines if the target is a mob that is classified as a boss or is too high of a level above you to show a level number.
+
+<<code lua>>found = s.Boss(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is a mob that is classified as a boss or is too high of a level above you to show a level number.
+
+\\
+----
+\\
+
+=== ** s.EnemyTargetingYourFriend
+
+Determines if the target is able to be attacked by you and is also targeting someone other than yourself that is friendly to you.
+
+<<code lua>>found = s.EnemyTargetingYourFriend(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is able to be attacked by you and is also targeting someone other than yourself that is friendly to you.
+
+\\
+----
+\\
+
+=== ** s.EnemyTargetingYou
+
+Determines if the target is able to be attacked by you and is also targeting you.
+
+<<code lua>>found = s.EnemyTargetingYou(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is able to be attacked by you and is also targeting you.
+
+\\
+----
+\\
+
+=== ** s.SameTargetAsPet
+
+Determines if the target is also being targeted by your pet.
+
+<<code lua>>found = s.SameTargetAsPet(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is also being targeted by your pet.
+
+\\
+----
+= ** Health
+----
+\\
+
+=== ** s.HealthPercent
+
+Determines the percentage of health that a target has.
+
+<<code lua>>health = s.HealthPercent(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to return the lowest health percent from a raid or party member or "party" for only party members. You may also add a combination of options separated by a line pipe such as "raid|range|afk|notself|healer". Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+
+===== ** Returns:
+
+; ** health
+:		(number) Percentage of health that a target has. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.Health
+
+Determines the amount of health that a target has.
+
+<<code lua>>health = s.Health(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** health
+:		(number) Amount of health that a target has. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.MaxHealth
+
+Determines the maximum amount of health that a target is able to have.
+
+<<code lua>>health = s.MaxHealth(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** health
+:		(number) Maximum amount of health that a target is able to have. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.HealthDamagePercent
+
+Determines the percentage of health that a target is missing.
+
+<<code lua>>damage = s.HealthDamagePercent(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to return the highest health damage percent from a raid or party member or "party" for only party members. You may also add a combination of options separated by a line pipe such as "raid|range|afk|notself|healer". Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+
+===== ** Returns:
+
+; ** damage
+:		(number) Percentage of health that a target is missing. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.HealthDamage
+
+Determines the amount of health that a target is missing.
+
+<<code lua>>damage = s.HealthDamage(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** damage
+:		(number) Amount of health that a target is missing. Will return 0 if unknown.
+
+\\
+----
+= ** Power
+----
+\\
+
+=== ** s.PowerPercent
+
+Determines the percentage of power that a target has.
+
+<<code lua>>power = s.PowerPercent(unit, PowerType)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to return the lowest power percent from a raid or party member or "party" for only party members. You may also add a combination of options separated by a line pipe such as "raid|range|afk|notself|healer". Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+; ** PowerType
+:		(number or nil) The power type of the target. FrameXML defines constants in the Constants.lua file that can be used, such as SPELL_POWER_ENERGY. If nil, uses the current primary type such as energy for a druid in cat form.
+
+===== ** Returns:
+
+; ** power
+:		(number) Percentage of power that a target has. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.Power
+
+Determines the amount of power that a target has.
+
+<<code lua>>power = s.Power(unit, PowerType)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** PowerType
+:		(number or nil) The power type of the target. FrameXML defines constants in the Constants.lua file that can be used, such as SPELL_POWER_ENERGY. If nil, uses the current primary type such as energy for a druid in cat form.
+
+===== ** Returns:
+
+; ** power
+:		(number) Amount of power that a target has. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.MaxPower
+
+Determines the maximum amount of power that a target is able to have.
+
+<<code lua>>power = s.MaxPower(unit, PowerType)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** PowerType
+:		(number or nil) The power type of the target. FrameXML defines constants in the Constants.lua file that can be used, such as SPELL_POWER_ENERGY. If nil, uses the current primary type such as energy for a druid in cat form.
+
+===== ** Returns:
+
+; ** power
+:		(number) Maximum amount of power that a target is able to have. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.PowerMissingPercent
+
+Determines the percentage of power that a target is missing.
+
+<<code lua>>missing = s.PowerMissingPercent(unit, PowerType)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to return the highest power missing percent from a raid or party member or "party" for only party members. You may also add a combination of options separated by a line pipe such as "raid|range|afk|notself|healer". Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+; ** PowerType
+:		(number or nil) The power type of the target. FrameXML defines constants in the Constants.lua file that can be used, such as SPELL_POWER_ENERGY. If nil, uses the current primary type such as energy for a druid in cat form.
+
+===== ** Returns:
+
+; ** missing
+:		(number) Percentage of power that a target is missing. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.PowerMissing
+
+Determines the amount of power that a target is missing.
+
+<<code lua>>missing = s.PowerMissing(unit, PowerType)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** PowerType
+:		(number or nil) The power type of the target. FrameXML defines constants in the Constants.lua file that can be used, such as SPELL_POWER_ENERGY. If nil, uses the current primary type such as energy for a druid in cat form.
+
+===== ** Returns:
+
+; ** missing
+:		(number) Amount of power that a target is missing. Will return 0 if unknown.
+
+\\
+----
+\\
+
+=== ** s.UsesMana
+
+Determines if any of the targets power bars are for mana.
+
+<<code lua>>usesMana = s.UsesMana(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** usesMana
+:		(boolean) True if any of the targets power bars are for mana.
+
+\\
+----
+\\
+
+=== ** s.HasMana
+
+Determines if any of the targets power bars are for mana and is not empty.
+
+<<code lua>>hasMana = s.HasMana(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** hasMana
+:		(boolean) True if any of the targets power bars are for mana and is not empty.
+
+\\
+----
+= ** Equipped Item
+----
+\\
+
+=== ** s.MainHand
+
+Determines if you have an item type that is not broken in the main hand.
+
+<<code lua>>Type = s.MainHand(ItemType)<</code>>
+
+===== ** Arguments:
+
+; ** ItemType
+:		(string or number or nil) Localized name or global spell id number of the item type, or nil for any.
+
+===== ** Returns:
+
+; ** Type
+:		(string or nil) Localized name of the item type, or nil if not found.
+
+\\
+----
+\\
+
+=== ** s.OffHand
+
+Determines if you have an item type that is not broken in the off hand.
+
+<<code lua>>Type = s.OffHand(ItemType)<</code>>
+
+===== ** Arguments:
+
+; ** ItemType
+:		(string or number or nil) Localized name or global spell id number of the item type, or nil for any.
+
+===== ** Returns:
+
+; ** Type
+:		(string or nil) Localized name of the item type, or nil if not found.
+
+\\
+----
+\\
+
+=== ** s.ShieldEquipped
+
+Determines if you have a shield that is not broken in the off hand.
+
+<<code lua>>found = s.ShieldEquipped()<</code>>
+
+===== ** Returns:
+
+; ** found
+:		(string or nil) Localized name of the item type, or nil if not found.
+
+\\
+----
+\\
+
+=== ** s.Equipped
+
+Determines if you have an item equipped that is not broken.
+
+<<code lua>>slot = s.Equipped(ItemName, Slot)<</code>>
+
+===== ** Arguments:
+
+; ** ItemName
+:		(string or number or table or nil) Localized name or global id number or table of localized names or global id numbers of the item. May be nil if the Slot argument is used.
+; ** Slot
+:		(string or number or nil) Name or number of an inventory slot to query.
+
+===== ** Returns:
+
+; ** slot
+:		(number or nil) Slot number that the item is equipped in or nil if broken or not found.
+
+\\
+----
+= ** Buff
+----
+\\
+
+=== ** s.Buff
+
+This checks for buffs.
+
+<<code lua>>found = s.Buff(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to check raid and party members or "party" to only check party members. You may also add a combination of options separated by a line pipe such as "raid|all|range|afk|notself|healer". Use "all" to only return true if all group members have the buff. Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the buff is found and all of the included arguments passed the checks.
+
+\\
+----
+\\
+
+=== ** s.BuffStack
+
+Determines the amount of applications for a buff.
+
+<<code lua>>applications = s.BuffStack(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** applications
+:		(number) Amount of applications on the found buff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass.
+
+\\
+----
+\\
+
+=== ** s.BuffDuration
+
+Determines the remaining time left on a buff.
+
+<<code lua>>remaining = s.BuffDuration(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds left on the found buff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass. Will give the highest duration remaining found when a table of spell names or Global ID numbers is used.
+
+\\
+----
+\\
+
+=== ** s.MyBuff
+
+This checks for buffs that came from you.
+
+<<code lua>>found = s.MyBuff(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to check raid and party members or "party" to only check party members. You may also add a combination of options separated by a line pipe such as "raid|all|range|afk|notself|healer". Use "all" to only return true if all group members have the buff. Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the buff is found and all of the included arguments passed the checks.
+
+\\
+----
+\\
+
+=== ** s.MyBuffStack
+
+Determines the amount of applications for a buff that came from you.
+
+<<code lua>>applications = s.MyBuffStack(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** applications
+:		(number) Amount of applications on the found buff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass.
+
+\\
+----
+\\
+
+=== ** s.MyBuffDuration
+
+Determines the remaining time left on a buff that came from you.
+
+<<code lua>>remaining = s.MyBuffDuration(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds left on the found buff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass. Will give the highest duration remaining found when a table of spell names or Global ID numbers is used.
+
+\\
+----
+\\
+
+=== ** s.SelfBuff
+
+This checks for buffs that are cast from the same unit that you are checking.
+
+<<code lua>>found = s.SelfBuff(SpellName, unit, DurationRemainingGreaterThan, Stealable, Castable, SpellToolTipLineTwo)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed. You may use the string "raid" to check raid and party members or "party" to only check party members. You may also add a combination of options separated by a line pipe such as "raid|all|range|afk|notself|healer". Use "all" to only return true if all group members have the buff. Use "range" to make sure that the unit is in range of most common spells. Use "afk" to make sure that the unit is not AFK. Use "notself" to not check yourself. Use "healer" to make sure the unit is a healer class.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the buff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the buff is able to be spellstolen.
+; ** Castable
+:		(boolean) If true will check to see if the buff is from a spell that you have.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the buff's tooltip.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the buff is found and all of the included arguments passed the checks.
+
+\\
+----
+\\
+
+=== ** s.MainHandItemBuff
+
+Checks to see if your currently equipped main hand item has a specified buff.
+
+<<code lua>>found = s.MainHandItemBuff(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global spell id number.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the buff is found.
+
+\\
+----
+\\
+
+=== ** s.OffHandItemBuff
+
+Checks to see if your currently equipped off hand item has a specified buff.
+
+<<code lua>>found = s.OffHandItemBuff(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global spell id number.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the buff is found.
+
+\\
+----
+= ** Debuff
+----
+\\
+
+=== ** s.Debuff
+
+This checks for debuffs.
+
+<<code lua>>found = s.Debuff(SpellName, unit, DurationRemainingGreaterThan, Stealable, Dispelable, SpellToolTipLineTwo, Type)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the debuff's tooltip.
+; ** Type
+:		(string or nil) Checks to see if the debuff is a spell type: "Magic", "Disease", "Poison" or "Curse".
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the debuff is found and all of the included arguments passed the checks.
+
+\\
+----
+\\
+
+=== ** s.DebuffStack
+
+Determines the amount of applications for a debuff.
+
+<<code lua>>applications = s.DebuffStack(SpellName, unit, DurationRemainingGreaterThan, Stealable, Dispelable, SpellToolTipLineTwo, Type)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the debuff's tooltip.
+; ** Type
+:		(string or nil) Checks to see if the debuff is a spell type: "Magic", "Disease", "Poison" or "Curse".
+
+===== ** Returns:
+
+; ** applications
+:		(number) Amount of applications on the found debuff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass.
+
+\\
+----
+\\
+
+=== ** s.DebuffDuration
+
+Determines the remaining time left on a debuff.
+
+<<code lua>>remaining = s.DebuffDuration(SpellName, unit, DurationRemainingGreaterThan, Stealable, Dispelable, SpellToolTipLineTwo, Type)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the debuff's tooltip.
+; ** Type
+:		(string or nil) Checks to see if the debuff is a spell type: "Magic", "Disease", "Poison" or "Curse".
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds left on the found debuff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass. Will give the highest duration remaining found when a table of spell names or Global ID numbers is used.
+
+\\
+----
+\\
+
+=== ** s.MyDebuff
+
+This checks for debuffs that came from you.
+
+<<code lua>>found = s.MyDebuff(SpellName, unit, DurationRemainingGreaterThan, Stealable, Dispelable, SpellToolTipLineTwo, Type)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table or nil) Localized name or global id number of the spell, or a table of localized names or global id numbers, or nil for any spell name.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the debuff's tooltip.
+; ** Type
+:		(string or nil) Checks to see if the debuff is a spell type: "Magic", "Disease", "Poison" or "Curse".
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the debuff is found and all of the included arguments passed the checks.
+
+\\
+----
+\\
+
+=== ** s.MyDebuffStack
+
+Determines the amount of applications for a debuff that came from you.
+
+<<code lua>>applications = s.MyDebuffStack(SpellName, unit, DurationRemainingGreaterThan, Stealable, Dispelable, SpellToolTipLineTwo, Type)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the debuff's tooltip.
+; ** Type
+:		(string or nil) Checks to see if the debuff is a spell type: "Magic", "Disease", "Poison" or "Curse".
+
+===== ** Returns:
+
+; ** applications
+:		(number) Amount of applications on the found debuff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass.
+
+\\
+----
+\\
+
+=== ** s.MyDebuffDuration
+
+Determines the remaining time left on a debuff that came from you.
+
+<<code lua>>remaining = s.MyDebuffDuration(SpellName, unit, DurationRemainingGreaterThan, Stealable, Dispelable, SpellToolTipLineTwo, Type)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+; ** SpellToolTipLineTwo
+:		(string or nil) This searches for a name or phrase in the second line of the debuff's tooltip.
+; ** Type
+:		(string or nil) Checks to see if the debuff is a spell type: "Magic", "Disease", "Poison" or "Curse".
+
+===== ** Returns:
+
+; ** remaining
+:		(number) Seconds left on the found debuff if all of the included arguments passed the checks, or 0 if not found or the argument checks did not all pass. Will give the highest duration remaining found when a table of spell names or Global ID numbers is used.
+
+\\
+----
+\\
+
+=== ** s.AllDebuffSlotsUsed
+
+Determines if the last available debuff slot is being used.
+
+<<code lua>>full = s.AllDebuffSlotsUsed(unit)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** full
+:		(boolean) True if the last available debuff slot is being used.
+
+\\
+----
+= ** Pre-configured Debuff
+----
+\\
+
+=== ** s.BreakOnDamageCC
+
+Determines if a target has a crowed control debuff on it that will break if the target is damaged.
+
+<<code lua>>found = s.BreakOnDamageCC(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target has a crowed control debuff on it that will break if the target is damaged.
+
+\\
+----
+\\
+
+=== ** s.ImmunityDebuff
+
+Determines if a target has a debuff on it that makes the target immune to damage.
+
+<<code lua>>found = s.ImmunityDebuff(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target has a debuff on it that makes the target immune to damage.
+
+\\
+----
+\\
+
+=== ** s.NoDamageCC
+
+Determines if a target has a crowed control debuff on it that will break if the target is damaged or makes the target immune to damage.
+
+<<code lua>>found = s.NoDamageCC(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target has a crowed control debuff on it that will break if the target is damaged or makes the target immune to damage.
+
+\\
+----
+\\
+
+=== ** s.CrowedControlled
+
+Determines if a target has a crowed control debuff on it that will break if the target is damaged or makes the target immune to damage, or the target is feared.
+
+<<code lua>>found = s.CrowedControlled(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target has a crowed control debuff on it that will break if the target is damaged or makes the target immune to damage, or the target is feared.
+
+\\
+----
+\\
+
+=== ** s.Feared
+
+Determines if a target is feared.
+
+<<code lua>>found = s.Feared(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is feared.
+
+\\
+----
+\\
+
+=== ** s.Rooted
+
+Determines if a target is rooted.
+
+<<code lua>>found = s.Rooted(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is rooted.
+
+\\
+----
+\\
+
+=== ** s.MovementImpaired
+
+Determines if a target is movement impaired.
+
+<<code lua>>found = s.MovementImpaired(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is movement impaired.
+
+\\
+----
+\\
+
+=== ** s.Poisoned
+
+Determines if a target is poisoned.
+
+<<code lua>>found = s.Poisoned(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is poisoned.
+
+\\
+----
+\\
+
+=== ** s.Diseased
+
+Determines if a target is diseased.
+
+<<code lua>>found = s.Diseased(unit, DurationRemainingGreaterThan, Stealable, Dispelable)<</code>>
+
+===== ** Arguments:
+
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+; ** DurationRemainingGreaterThan
+:		(number or nil) Checks to see if the debuff has more seconds left on its duration than this.
+; ** Stealable
+:		(boolean) If true will check to see if the debuff is able to be spellstolen.
+; ** Dispelable
+:		(boolean) If true will check to see if you have a spell that is capable if dispelling the debuff.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if the target is diseased.
+
+\\
+----
+= ** Spell and Aura Travel Time
+----
+\\
+
+=== ** s.SpellDelay
+
+This determines if your spell has been cast but has not yet reached its target.
+
+<<code lua>>traveling = s.SpellDelay(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table) Localized name or global id number of the spell, or a table of localized names or global id numbers.
+
+===== ** Returns:
+
+; ** traveling
+:		(number or nil) How many spell casts for your specified spell(s) while targeting the same target have yet to land, or nil for none.
+
+\\
+----
+\\
+
+=== ** s.AuraDelay
+
+This determines if your spell has landed on its target but has not yet applied its buff or debuff.
+
+<<code lua>>waiting = s.AuraDelay(SpellName, unit)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table) Localized name or global id number of the spell, or a table of localized names or global id numbers.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** waiting
+:		(boolean) True if your spell that has landed has not yet applied a buff or debuff.
+
+\\
+----
+\\
+
+=== ** s.SpellOrAuraDelay
+
+This determines if your spell has been cast but has not yet reached its target, or if your spell has landed on its target but has not yet applied its buff or debuff.
+
+<<code lua>>waiting = s.SpellOrAuraDelay(SpellName, unit)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number or table) Localized name or global id number of the spell, or a table of localized names or global id numbers.
+; ** unit
+:		(string or nil) UnitId or nil for "target" or "focus" depending on if the focus casting modifier key is pressed.
+
+===== ** Returns:
+
+; ** waiting
+:		(boolean) True if your spell cast for the specified spell(s) while targeting the same target have yet to land, or if your spell that has landed has not yet applied a buff or debuff.
+
+\\
+----
+\\
+
+=== ** s.RegisterOtherAurasFunction
+
+Registers a function to be ran whenever scripts using the s.SetOtherAuras function should be processed.
+
+<<code lua>>s.RegisterOtherAurasFunction(Function)<</code>>
+
+===== ** Arguments:
+
+; ** Function
+:		(function) A function that utilises the s.SetOtherAuras function.
+
+\\
+----
+\\
+
+=== ** s.SetOtherAuras
+
+Use this to indicate your spell that applies a buff or debuff but has a different name than the buff or debuff, so that the buff or debuff name may be used with the s.SpellDelay, s.AuraDelay and s.SpellOrAuraDelay functions.
+
+<<code lua>>s.SetOtherAuras(Spell, Aura, Delete)<</code>>
+
+===== ** Arguments:
+
+; ** Spell
+:		(string or number) Localized name or global id number of your spell.
+; ** Aura
+:		(string or number) Localized name or global spell id number of buff or debuff.
+; ** Delete
+:		(boolean) If true will remove this information from the listing. This information is automatically cleared before the functions added with the s.RegisterOtherAurasFunction function are called anyway.
+
+\\
+----
+= ** Castable
+----
+\\
+
+=== ** s.PetCastable
+
+Determines if a pet action bar spell is able to be cast.
+
+<<code lua>>castable = s.PetCastable(SpellName, PetFrameNeeded, PetHealthNotNeeded, GlobalCooldownSpell, EvenIfNotUsable)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** PetFrameNeeded
+:		(boolean) If true will require that the pet frame is still showing even if your pet has died.
+; ** PetHealthNotNeeded
+:		(boolean) If true will not require that your pet be alive.
+; ** GlobalCooldownSpell
+:		(string or number or nil) Localized name or global id number of another pet spell to compare global cooldowns with.
+; ** EvenIfNotUsable
+:		(boolean) If true disables the usability checking, and may be used if currently in the process of completing a prerequisite that will make the spell usable.
+
+===== ** Returns:
+
+; ** castable
+:		(boolean) True if the spell is ready to be cast.
+
+\\
+----
+\\
+
+=== ** s.CheckIfSpellCastable
+
+Determines if a spell is able to be cast.
+
+<<code lua>>castable = s.CheckIfSpellCastable(InfoArray)<</code>>
+
+===== ** Arguments:
+
+; ** InfoArray
+:		(table) A table of arguments.
+<<code lua>>-- Example function:
+function()
+	local z = {}
+	z.SpellID = GlobalSpellID--[[English_Spell_Name]]   --this is for defining the correct name of the spell
+	z.DebuffSlotNeeded = 1   --use this if you want to make sure that a debuff slot is free on the target so that you do not replace other debuffs
+	z.Debuff = z.SpellID   --place debuff name or table of names here if the spell has a debuff that may only be on a target once in total from everyone and has a cooldown shorter than the debuff duration
+	z.MyDebuff = z.SpellID   --place debuff name or table of names here if the spell has a debuff that may be on the target multiple times by many people and has a cooldown shorter than the debuff duration
+	z.Buff = z.SpellID   --place buff name or table of names here if the spell has a buff that may only be on yourself once in total from everyone and has a cooldown shorter than the buff duration
+	z.MyBuff = z.SpellID   --place buff name or table of names here if the spell has a buff that may be on the target multiple times by many people and has a cooldown shorter than the buff duration
+	z.BuffUnit = "player"   --you will need to use this if the buff or debuff is not applied to your target
+	z.CastTime = s.CastTime(z.SpellID)   --use this only if you want to replace the spell cast time used for early indication of a buff or debuff
+	z.EnemyTargetNeeded = 1   --use this if the spell should have an enemy targeted
+	z.TargetThatUsesManaNeeded = 1   --use this if the spell is only useful on a target that uses mana such as mana draining spells
+	z.NoRangeCheck = 1   --use this to disable range detection if the spell has a limited range but the detection in this function is not working correctly for the particular spell
+	z.NotIfActive = 1   --use this if the spell may be toggled on such as auto attack or on next swing spells, or to disable when casting or channeling, or if the spell has a cooldown
+	z.NotWhileMoving = 1   --use this if the spell is not able to be cast while moving
+	z.EvenIfNotUsable = 1   --use this to disable the usability checking in this function and may be used if currently in the process of completing a prerequisite that will make the spell usable
+	z.Unit = "target"   --this should not be used unless the spell is not to be cast on the target
+	return s.CheckIfSpellCastable(z)
+end<</code>>
+
+===== ** Returns:
+
+; ** castable
+:		(boolean) True if the spell is ready to be cast.
+
+\\
+----
+\\
+
+=== ** s.CheckIfItemCastable
+
+Determines if an item is able to be used.
+
+<<code lua>>castable = s.CheckIfItemCastable(InfoArray)<</code>>
+
+===== ** Arguments:
+
+; ** InfoArray
+:		(table) A table of arguments.
+<<code lua>>-- Example function:
+function()
+	local z = {}
+	z.ItemID = ItemID--[[English_Item_Name]]   --this is for defining the correct name of the item
+	z.DebuffSlotNeeded = 1   --use this if you want to make sure that a debuff slot is free on the target so that you do not replace other debuffs
+	z.Debuff = GlobalSpellID   --place debuff name or table of names here if the item has a debuff that may only be on a target once in total from everyone and has a cooldown shorter than the debuff duration
+	z.MyDebuff = GlobalSpellID   --place debuff name or table of names here if the item has a debuff that may be on the target multiple times by many people and has a cooldown shorter than the debuff duration
+	z.Buff = GlobalSpellID   --place buff name or table of names here if the item has a buff that may only be on yourself once in total from everyone and has a cooldown shorter than the buff duration
+	z.MyBuff = GlobalSpellID   --place buff name or table of names here if the item has a buff that may be on the target multiple times by many people and has a cooldown shorter than the buff duration
+	z.BuffUnit = "player"   --you will need to use this if the buff or debuff is not applied to your target
+	z.CastTime = 0   --use this if the item has a cast time for indication of a buff or debuff early
+	z.EnemyTargetNeeded = 1   --use this if the item should have an enemy targeted
+	z.TargetThatUsesManaNeeded = 1   --use this if the item is only useful on a target that uses mana such as mana draining items
+	z.NoRangeCheck = 1   --use this to disable range detection if the item has a limited range but the detection in this function is not working correctly for the particular item
+	z.NotIfActive = 1   --use this if the item may be toggled on such as auto attack or on next swing spells, or to disable when casting or channeling, or if the item has a cooldown
+	z.NotWhileMoving = 1   --use this if the item is not able to be used while moving
+	z.EvenIfNotUsable = 1   --use this to disable the usability checking in this function and may be used if currently in the process of completing a prerequisite that will make the item usable
+	z.Unit = "target"   --this should not be used unless the item is not to be cast on the target
+	return s.CheckIfItemCastable(z)
+end<</code>>
+
+===== ** Returns:
+
+; ** castable
+:		(boolean) True if the item is ready to be used.
+
+\\
+----
+\\
+
+=== ** s.CheckIfVehicleSpellCastable
+
+Determines if a vehicle action bar spell is able to be cast.
+
+<<code lua>>castable = s.CheckIfVehicleSpellCastable(InfoArray)<</code>>
+
+===== ** Arguments:
+
+; ** InfoArray
+:		(table) A table of arguments.
+<<code lua>>-- Example function:
+function()
+	local z = {}
+	z.SpellID = GlobalSpellID--[[English_Spell_Name]]   --this is for defining the correct name of the spell
+	z.DebuffSlotNeeded = 1   --use this if you want to make sure that a debuff slot is free on the target so that you do not replace other debuffs
+	z.Debuff = z.SpellID   --place debuff name or table of names here if the spell has a debuff that may only be on a target once in total from everyone and has a cooldown shorter than the debuff duration
+	z.MyDebuff = z.SpellID   --place debuff name or table of names here if the spell has a debuff that may be on the target multiple times by many people and has a cooldown shorter than the debuff duration
+	z.Buff = z.SpellID   --place buff name or table of names here if the spell has a buff that may only be on yourself once in total from everyone and has a cooldown shorter than the buff duration
+	z.MyBuff = z.SpellID   --place buff name or table of names here if the spell has a buff that may be on the target multiple times by many people and has a cooldown shorter than the buff duration
+	z.BuffUnit = "vehicle"   --you will need to use this if the buff or debuff is not applied to your target
+	z.CastTime = 0   --use this if the spell has a cast time for indication of a buff or debuff early
+	z.EnemyTargetNeeded = 1   --use this if the spell should have an enemy targeted
+	z.TargetThatUsesManaNeeded = 1   --use this if the spell is only useful on a target that uses mana such as mana draining spells
+	z.NoRangeCheck = 1   --use this to disable range detection if the spell has a limited range but the detection in this function is not working correctly for the particular spell
+	z.NotIfActive = 1   --use this if the spell may be toggled on such as auto attack or on next swing spells, or to disable when casting or channeling, or if the spell has a cooldown
+	z.NotWhileMoving = 1   --use this if the spell is not able to be cast while moving
+	z.EvenIfNotUsable = 1   --use this to disable the usability checking in this function and may be used if currently in the process of completing a prerequisite that will make the spell usable
+	z.GlobalVehicleCooldownSpell = GlobalSpellID--[[English_Spell_Name]]   -- use this if spell has more than a global cooldown
+	z.Unit = "target"   --this should not be used unless the spell is not to be cast on the target
+	return s.CheckIfVehicleSpellCastable(z)
+end<</code>>
+
+===== ** Returns:
+
+; ** castable
+:		(boolean) True if the spell is ready to be cast.
+
+\\
+----
+= ** Flash Functionality
+----
+\\
+
+=== ** s.Flashable
+
+Determines if a specified spell or item is able to be found on the action bars to be flashed.
+
+<<code lua>>found = s.Flashable(SpellName, NoMacros)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) English spell or item name, or global spell id number.
+; ** NoMacros
+:		(boolean) If true will skip checking for macros.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if a specified spell or item is able to be found on the action bars to be flashed.
+
+\\
+----
+\\
+
+=== ** s.Flash
+
+This is used to flash an action bar spell or item.
+
+<<code lua>>s.Flash(SpellName, color, size, brightness, blink, NoMacros)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) English spell or item name, or global spell id number.
+; ** color
+:		(string or table or nil) Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined. May be nil for "White".
+; ** size
+:		(number or nil) Percent for the flash size or nil for default.
+; ** brightness
+:		(number or nil) Percent for the flash brightness or nil for default.
+; ** blink
+:		(boolean) If true will make the action button fade in and out.
+; ** NoMacros
+:		(boolean) If true will skip checking for macros.
+
+\\
+----
+\\
+
+=== ** s.FlashPet
+
+This is used to flash a pet bar spell.
+
+<<code lua>>s.FlashPet(SpellName, color, size, brightness, blink)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** color
+:		(string or table or nil) Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined. May be nil for "White".
+; ** size
+:		(number or nil) Percent for the flash size or nil for default.
+; ** brightness
+:		(number or nil) Percent for the flash brightness or nil for default.
+; ** blink
+:		(boolean) If true will make the action button fade in and out.
+
+\\
+----
+\\
+
+=== ** s.FlashForm
+
+This is used to flash a stance, form, presence, aura or aspect bar spell.
+
+<<code lua>>s.FlashForm(SpellName, color, size, brightness, blink)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** color
+:		(string or table or nil) Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined. May be nil for "White".
+; ** size
+:		(number or nil) Percent for the flash size or nil for default.
+; ** brightness
+:		(number or nil) Percent for the flash brightness or nil for default.
+; ** blink
+:		(boolean) If true will make the action button fade in and out.
+
+\\
+----
+\\
+
+=== ** s.VehicleFlashable
+
+Determines if a specified spell is able to be found on the vehicle action bar to be flashed.
+
+<<code lua>>found = s.VehicleFlashable(SpellName)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+
+===== ** Returns:
+
+; ** found
+:		(boolean) True if a specified spell is able to be found on the vehicle action bar to be flashed.
+
+\\
+----
+\\
+
+=== ** s.FlashVehicle
+
+This is used to flash a vehicle bar spell.
+
+<<code lua>>s.FlashVehicle(SpellName, color, size, brightness, blink)<</code>>
+
+===== ** Arguments:
+
+; ** SpellName
+:		(string or number) Localized name or global id number of the spell.
+; ** color
+:		(string or table or nil) Will accept color tables {r=1.0, g=1.0, b=1.0} or a string with the name of a color that has already been defined. May be nil for "White".
+; ** size
+:		(number or nil) Percent for the flash size or nil for default.
+; ** brightness
+:		(number or nil) Percent for the flash brightness or nil for default.
+; ** blink
+:		(boolean) If true will make the action button fade in and out.
+
+\\
+----
+\\
+
+=== ** s.FlashSizePercent
+
+Gives the percent that SpellFlash has been set to for the flash size.
+
+<<code lua>>percent = s.FlashSizePercent()<</code>>
+
+===== ** Returns:
+
+; ** percent
+:		(number) Percent that SpellFlash has been set to for the flash size.
+
+\\
+----
+\\
+
+=== ** s.FlashBrightnessPercent
+
+Gives the percent that SpellFlash has been set to for the flash brightness.
+
+<<code lua>>percent = s.FlashBrightnessPercent()<</code>>
+
+===== ** Returns:
+
+; ** percent
+:		(number) Percent that SpellFlash has been set to for the flash brightness.
+
+\\
+----
+= ** Module Configurations
+----
+\\
+
+=== ** s.GetModuleConfig
+
+This is used to get the value of a module configuration.
+
+<<code lua>>value = s.GetModuleConfig(AddonName, config)<</code>>
+
+===== ** Arguments:
+
+; ** AddonName
+:		(string) Addon name of the module.
+; ** config
+:		(string) Name of the module configuration.
+
+===== ** Returns:
+
+; ** value
+:		Value of the module configuration.
+
+\\
+----
+\\
+
+=== ** s.SetModuleConfig
+
+This is used to set the value of a module configuration.
+
+<<code lua>>s.SetModuleConfig(AddonName, config, value)<</code>>
+
+===== ** Arguments:
+
+; ** AddonName
+:		(string) Addon name of the module.
+; ** config
+:		(string) Name of the module configuration.
+; ** value
+:		Any value to save to the module configuration or nil to delete the module configuration.
+
+\\
+----
+\\
+
+=== ** s.ClearAllModuleConfigs
+
+This is used to delete all module configuration values.
+
+<<code lua>>s.ClearAllModuleConfigs(AddonName)<</code>>
+
+===== ** Arguments:
+
+; ** AddonName
+:		(string) Addon name of the module.

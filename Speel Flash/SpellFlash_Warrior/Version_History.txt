@@ -1,0 +1,168 @@
+
+
+
+== Version 2.7.2
+
+* Updated to be compatible with the 5.51 version of SpellFlash.
+
+
+== Version 2.7.1
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+
+
+== Version 2.7
+
+* No longer checks to see if you are dual wielding for Whirlwind because it is now only indicated for AOE damage.
+
+
+== Version 2.6
+
+* Will no longer flash Charge or Intercept while either Charge or Intercept is currently being used.
+* Increased the priority of Pummel above Shield Bash.
+* Fixed Berserker Rage not being indicated if needed by Raging Blow.
+
+
+== Version 2.5
+
+* Will no longer suggest Rend for a regular single target MOB that is at 25% or less health.
+
+
+== Version 2.4
+
+* Increased priority of Mortal Strike with the Lambs to the Slaughter talent.
+* Will now flash Slam yellow with an increased priority for the Bloodsurge talent.
+* Will now flash Rend yellow with an increased priority for the Taste for Blood or Blood Frenzy talents.
+* Will now flash Berserker Rage yellow if it is needed for Raging Blow.
+
+
+== Version 2.3
+
+* Increased the priority of Overpower above Execute.
+* Execute will now flash yellow instead of white.
+
+
+== Version 2.2
+
+* Will now flash Thunder Clap blue instead of purple if an attack speed reduction debuff is not already on the target.
+
+
+== Version 2.1
+
+* Added Rend to the list of indicated AOE abilities if you have the Blood and Thunder talent.
+
+
+== Version 2.0
+
+* Added compatible scripting for Cataclysm.
+
+
+== Version 1.15.1
+
+* Bumped the toc file interface number to 40000.
+** Compatible scripting has not yet been added for the 4.0.1 patch.
+
+
+== Version 1.15
+
+* Added a clean slate for backward compatibility with Cataclysm.
+
+
+== Version 1.14
+
+* Updated compatibility for the 4.2 version of SpellFlash.
+
+
+== Version 1.13
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 1.12.3
+
+* Repaired the functionality for "Mortal Strike".
+
+
+== Version 1.12.2
+
+* Corrected rank checking of "Sunder Armor".
+
+
+== Version 1.12.1
+
+* In the lua files now able to use the letter L in place of Table.Localize.
+
+
+== Version 1.12
+
+* Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+== Version 1.11
+
+* Now able to check if an item is castable.
+* Renamed localization variable from LOCALIZATION to Table.Localize.
+* Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+== Version 1.10
+
+* Reformatted title in the toc file.
+* Reformatted title in the options menu.
+
+
+== Version 1.09
+
+* Updated options frame to current template specs.
+
+
+== Version 1.08
+
+* Hopefully removed harmless error message from popping up.
+
+
+== Version 1.07
+
+* Added example text to localization files.
+* Updated options frame to current template specs.
+* Renamed a few local functions to reduce the script size.
+* Added a few more local functions to reduce the script size.
+* Using incremental version numbers again.
+
+
+== Version 1.06
+
+* Replaced the z.DebuffName and z.BuffName variables in the Castable functions with more specific variables.
+** The new z.Debuff, z.MyDebuff, z.Buff and z.MyBuff variables are now able to take either a single name or a table of names.
+
+
+== Version 1.05
+
+* Added more local functions to reduce the script size.
+
+
+== Version 1.04
+
+* Added the ability to not load an addon at all unless you log on with a specified class or race.
+* Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+== Version 1.03
+
+* Will no longer flash "Battle Shout" if you are already buffed with "Blessing of Might" or "Greater Blessing of Might".
+
+
+== Version 1.02
+
+* Added indicator for Shockwave.
+
+
+== Version 1.01
+
+* Added a child options frame.
+
+
+== Version 1.00
+
+* Separated functionality into a separate addon.
+

@@ -1,0 +1,194 @@
+
+
+
+== Version 2.5
+
+* Will no longer flash the pet's passive button when not in a raid or a party.
+
+
+== Version 2.4.2
+
+* Updated to be compatible with the 5.51 version of SpellFlash.
+
+
+== Version 2.4.1
+
+* Updated to be compatible with the 5.50 version of SpellFlash.
+
+
+== Version 2.4
+
+* Added indicator for Widow Venom.
+
+
+== Version 2.3.1
+
+* Updated to be compatible with the 5.25 version of SpellFlash.
+
+
+== Version 2.3
+
+* Now accounting for the cooldown of a spell interrupt ability to allow early indication while on cooldown.
+* Will not indicate Arcane Shot or Multi-Shot if the primary talent tree is Beast Mastery unless enough focus will also be left over for Kill Command.
+
+
+== Version 2.2
+
+* Updated the Intimidation function so that when used to add threat to your pet you no longer need to have the same target as your pet.
+
+
+== Version 2.1.1
+
+* Removed error message bug.
+
+
+== Version 2.1
+
+* Removed the focus requirement for indicating Aspect of the Fox.
+* Will no longer indicate Aspect of the Hawk if you have an enemy target within melee range.
+
+
+== Version 2.0
+
+* Updated to work in Cataclysm.
+** May still need some work to get things perfected.
+
+
+== Version 1.21.1
+
+* Bumped the toc file interface number to 40000.
+
+
+== Version 1.21
+
+* Added a clean slate for backward compatibility with Cataclysm.
+
+
+== Version 1.20
+
+* Updated compatibility for the 4.2 version of SpellFlash.
+
+
+== Version 1.19
+
+* Updated compatibility for the 4.1 version of SpellFlash.
+
+
+== Version 1.18.1
+
+* Will now only suggest "Rapid Fire" if you are in combat.
+
+
+== Version 1.18
+
+* Will now only suggest "Viper Sting" on a boss target.
+* Added a suggestion for "Readiness" when "Freezing Trap", "Kill Shot" or "Rapid Fire" is on cooldown.
+* Repaired "Kill Command" functionality.
+
+
+== Version 1.17
+
+* Will now suggest "Scatter Shot" if you are within melee range of an active target or if your target is casting or channeling a spell.
+* Will now suggest "Rapid Fire" if your target is an active player or a boss.
+* Will now suggest "Kill Command" if your pet has an active target that is not close to dieing or is a boss.
+* Will now suggest "Arcane Shot" separately once sting suggestion is reached.
+
+
+== Version 1.16
+
+* Will now suggest "Chimera Shot" if any of your stings are on the target at any duration.
+
+
+== Version 1.15.1
+
+* In the lua files now able to use the letter L in place of Table.Localize.
+
+
+== Version 1.15
+
+* Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+== Version 1.14
+
+* Now able to check if an item is castable.
+* Renamed localization variable from LOCALIZATION to Table.Localize.
+* Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+== Version 1.13
+
+* Reformatted title in the toc file.
+* Reformatted title in the options menu.
+
+
+== Version 1.12
+
+* Updated options frame to current template specs.
+
+
+== Version 1.11
+
+* Hopefully removed harmless error message from popping up.
+
+
+== Version 1.10
+
+* Added example text to localization files.
+* Updated options frame to current template specs.
+* Renamed a few local functions to reduce the script size.
+* Added a few more local functions to reduce the script size.
+* Using incremental version numbers again.
+
+
+== Version 1.09
+
+* Will no longer flash "Trueshot Aura" if you are already buffed with "Abomination's Might".
+
+
+== Version 1.08
+
+* Added more local functions to reduce the script size.
+
+
+== Version 1.07
+
+* Added the ability to not load an addon at all unless you log on with a specified class or race.
+* Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+== Version 1.06
+
+* Will now only give initial priority to Hunter's Mark if the target is not active or is a player who is targeting you.
+
+
+== Version 1.05
+
+* Added a child options frame.
+
+
+== Version 1.04
+
+* Incorporated improvements of the SpellFlashAddon.MeleeDistance function by adding the SpellFlashAddon.OutsideMeleeSpells variable.
+
+
+== Version 1.03
+
+* Improved range detection in early levels for Attack and Raptor Strike.
+
+
+== Version 1.02
+
+* Fixed pet spell "Heart of the Phoenix".
+
+
+== Version 1.01
+
+* Cower will now only flash if your pet is below 50% health.
+* Added indicators for the pet's "Lick Your Wounds", "Heart of the Phoenix", "Last Stand" & "Roar of Recovery" spells.
+
+
+== Version 1.00
+
+* Separated functionality into a separate addon.
+
